@@ -15,3 +15,6 @@ print(idValidator(password: "00!6789"))
 print(idValidator(password: "00-6789"))
 print(idValidator(password: "00abAB6789"))
 print(idValidator(password: "00abAB-6789"))
+
+print(solution([5,9,7,10], 5))
+
