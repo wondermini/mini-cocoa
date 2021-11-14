@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "solution64061(_:_:):a64061.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stackdolls.last">
+            </PersistentString>
+            <PersistentString
+               value = "tempBoard[i-1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "duplicatedWords(inputWords:):p6.swift">
+      </ContextState>
+      <ContextState
+         contextName = "idValidator(password:):p2.swift">
+      </ContextState>
+      <ContextState
+         contextName = "solution68644(_:):68644.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numbers.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
