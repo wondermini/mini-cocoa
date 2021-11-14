@@ -3,7 +3,7 @@
 //  Week2Day7
 //
 //  Created by JUNGMIN KIM on 2021/11/14.
-//  
+//  친구와 같이 풀었음.
 //
 
 import Foundation
