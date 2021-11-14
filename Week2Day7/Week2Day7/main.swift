@@ -16,5 +16,10 @@ print(idValidator(password: "00-6789"))
 print(idValidator(password: "00abAB6789"))
 print(idValidator(password: "00abAB-6789"))
 
-print(solution([5,9,7,10], 5))
+print(solution12910([5, 9, 7, 10], 5))
 
+
+
+print(solution64061([[0, 0, 0, 0, 0], [0, 0, 1, 0, 3], [0, 2, 5, 0, 1], [4, 2, 4, 4, 2], [3, 5, 1, 3, 1]], [1, 5, 3, 5, 1, 2, 1, 4]))
+
+print(solution68644([5,0,2,7]))

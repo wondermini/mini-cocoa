@@ -19,3 +19,5 @@ func solution12910(_ arr: [Int], _ divisor: Int) -> [Int] {
     }
     return tempArr.sorted(by: <)
 }
+
+
