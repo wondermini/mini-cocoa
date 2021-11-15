@@ -10,8 +10,8 @@ import Foundation
 struct BinaryNumber {
     private var values = [String]()
     init(with total: Int) {
-        let upperbound = Int(pow(2.0, Double(total)))
-        for i in 1 ..< upperbound {
+        let max = Int(pow(2.0, Double(total)))
+        for i in 0 ..< max {
             values.append(pad(string: String(i, radix: 2), toSize: total))
         }
     }
