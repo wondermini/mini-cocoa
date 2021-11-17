@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BubbleSort.sorted(isAscending:):bubbleSort.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "unsortedArr.count">
+            </PersistentString>
+            <PersistentString
+               value = "unsortedArr.endIndex">
+            </PersistentString>
+            <PersistentString
+               value = "unsortedArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

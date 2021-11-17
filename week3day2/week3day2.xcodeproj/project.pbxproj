@@ -15,6 +15,8 @@
 		4F1B58692743EBF600A83138 /* 5.printNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B58682743EBF600A83138 /* 5.printNumbers.swift */; };
 		4F1B586B2743EDED00A83138 /* 6.printSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B586A2743EDED00A83138 /* 6.printSquare.swift */; };
 		4F1B586D2743EF9700A83138 /* 7.printReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B586C2743EF9700A83138 /* 7.printReverse.swift */; };
+		4F1B586F2743FBE000A83138 /* binaryStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B586E2743FBE000A83138 /* binaryStructure.swift */; };
+		4F1B587127440C7E00A83138 /* bubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B587027440C7E00A83138 /* bubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		4F1B58682743EBF600A83138 /* 5.printNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.printNumbers.swift; sourceTree = "<group>"; };
 		4F1B586A2743EDED00A83138 /* 6.printSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.printSquare.swift; sourceTree = "<group>"; };
 		4F1B586C2743EF9700A83138 /* 7.printReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7.printReverse.swift; sourceTree = "<group>"; };
+		4F1B586E2743FBE000A83138 /* binaryStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryStructure.swift; sourceTree = "<group>"; };
+		4F1B587027440C7E00A83138 /* bubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				4F1B58682743EBF600A83138 /* 5.printNumbers.swift */,
 				4F1B586A2743EDED00A83138 /* 6.printSquare.swift */,
 				4F1B586C2743EF9700A83138 /* 7.printReverse.swift */,
+				4F1B586E2743FBE000A83138 /* binaryStructure.swift */,
+				4F1B587027440C7E00A83138 /* bubbleSort.swift */,
 			);
 			path = week3day2;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 				4F1B58612743B30E00A83138 /* 1.printXY.swift in Sources */,
 				4F1B586B2743EDED00A83138 /* 6.printSquare.swift in Sources */,
 				4F1B58652743E20000A83138 /* 3.printRightTree.swift in Sources */,
+				4F1B586F2743FBE000A83138 /* binaryStructure.swift in Sources */,
 				4F1B586D2743EF9700A83138 /* 7.printReverse.swift in Sources */,
+				4F1B587127440C7E00A83138 /* bubbleSort.swift in Sources */,
 				4F1B58692743EBF600A83138 /* 5.printNumbers.swift in Sources */,
 				4F1B585A2743B2B900A83138 /* main.swift in Sources */,
 			);

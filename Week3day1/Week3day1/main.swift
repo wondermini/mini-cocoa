@@ -17,3 +17,4 @@ myMatrix.product(with: myOtherMatrix).printMatrix()
 var myBinaryNumber = BinaryNumber(with: 5)
 myBinaryNumber.printValues()
 print(myBinaryNumber.find(by: 3))
+

@@ -23,3 +23,12 @@ printNumbers(lines: 5)
 printSquare(columns: 5)
 
 printReverse(lines: 4)
+
+var myBinaryNumber = BinaryNumber(with: 5)
+myBinaryNumber.printValues()
+print(myBinaryNumber.find(by: 3))
+
+var sort = BubbleSort(arr: [10,3,4,5])
+print(sort.sorted(isAscending: true))
+print(sort.sorted(isAscending: false))
+
