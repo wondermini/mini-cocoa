@@ -9,9 +9,9 @@ import Foundation
 
 // grading
 let result1 = gradingStudents(grades: [73,
-                                      67,
-                                      38,
-                                      33])
+                                       67,
+                                       38,
+                                       33])
 
 if result1 == [75, 67, 40, 33] {
     print("gradingStudents test success")
@@ -29,10 +29,19 @@ if result2 == [1, 1] {
 }
 
 // aVeryBigSum
-let result3 = aVeryBigSum(ar: [1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
+let result3 = aVeryBigSum2(ar: [1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
 
 if result3 == 5000000015 {
     print("aVeryBigSum test success")
 } else {
     print("aVeryBigSum test fail")
+}
+
+// TimeConversion
+let result4 = timeConversion(s: "07:05:45PM")
+
+if result4 == "19:05:45" {
+    print("timeConversion test success")
+} else {
+    print("timeConversion test fail")
 }

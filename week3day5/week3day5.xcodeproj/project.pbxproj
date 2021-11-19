@@ -11,6 +11,7 @@
 		4F1B597927475CE200A83138 /* grading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597827475CE200A83138 /* grading.swift */; };
 		4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597A27476F3100A83138 /* compareTheTriplets.swift */; };
 		4F1B597D274788E800A83138 /* aVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597C274788E800A83138 /* aVeryBigSum.swift */; };
+		4F1B597F274798F500A83138 /* timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597E274798F500A83138 /* timeConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4F1B597827475CE200A83138 /* grading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grading.swift; sourceTree = "<group>"; };
 		4F1B597A27476F3100A83138 /* compareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTheTriplets.swift; sourceTree = "<group>"; };
 		4F1B597C274788E800A83138 /* aVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aVeryBigSum.swift; sourceTree = "<group>"; };
+		4F1B597E274798F500A83138 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4F1B597827475CE200A83138 /* grading.swift */,
 				4F1B597A27476F3100A83138 /* compareTheTriplets.swift */,
 				4F1B597C274788E800A83138 /* aVeryBigSum.swift */,
+				4F1B597E274798F500A83138 /* timeConversion.swift */,
 			);
 			path = week3day5;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1B597927475CE200A83138 /* grading.swift in Sources */,
+				4F1B597F274798F500A83138 /* timeConversion.swift in Sources */,
 				4F1B597227475C5200A83138 /* main.swift in Sources */,
 				4F1B597D274788E800A83138 /* aVeryBigSum.swift in Sources */,
 				4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */,

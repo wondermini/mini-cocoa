@@ -15,3 +15,12 @@ func aVeryBigSum(ar: [Int]) -> Int {
     }
  return result
 }
+
+
+
+
+func aVeryBigSum2(ar: [Int]) -> Int {
+ // Write your code here
+    return ar.reduce(0,+)
+ }
+ 
