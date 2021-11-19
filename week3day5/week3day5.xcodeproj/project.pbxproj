@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F1B597227475C5200A83138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597127475C5200A83138 /* main.swift */; };
 		4F1B597927475CE200A83138 /* grading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597827475CE200A83138 /* grading.swift */; };
+		4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597A27476F3100A83138 /* compareTheTriplets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F1B596E27475C5200A83138 /* week3day5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week3day5; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1B597127475C5200A83138 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F1B597827475CE200A83138 /* grading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grading.swift; sourceTree = "<group>"; };
+		4F1B597A27476F3100A83138 /* compareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTheTriplets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4F1B597127475C5200A83138 /* main.swift */,
 				4F1B597827475CE200A83138 /* grading.swift */,
+				4F1B597A27476F3100A83138 /* compareTheTriplets.swift */,
 			);
 			path = week3day5;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				4F1B597927475CE200A83138 /* grading.swift in Sources */,
 				4F1B597227475C5200A83138 /* main.swift in Sources */,
+				4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

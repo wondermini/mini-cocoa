@@ -13,11 +13,12 @@ func gradingStudents(grades: [Int]) -> [Int] {
     // Write your code here
     var result = [Int]()
     for i in grades {
-        if i%5 >= 3, i > 38 {
+        if i%5 >= 3 && i >= 38 {
             result.append(i + (5 - i%5))
         } else {
             result.append(i)
         }
     }
+    print(result)
     return result
 }
