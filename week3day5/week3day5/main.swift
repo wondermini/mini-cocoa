@@ -27,3 +27,12 @@ if result2 == [1, 1] {
 } else {
     print("compareTriplets test fail")
 }
+
+// aVeryBigSum
+let result3 = aVeryBigSum(ar: [1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
+
+if result3 == 5000000015 {
+    print("aVeryBigSum test success")
+} else {
+    print("aVeryBigSum test fail")
+}
