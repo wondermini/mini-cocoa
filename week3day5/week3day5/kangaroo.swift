@@ -20,13 +20,10 @@ func kangaroo(x1: Int, v1: Int, x2: Int, v2: Int) -> String {
     var k2 = x2
     
     while k1 < k2 {
+        
         k1 += v1
         k2 += v2
         
-        if k1 > k2 {
-            return no
-        }
-
         if k1 == k2 {
             return yes
         }
