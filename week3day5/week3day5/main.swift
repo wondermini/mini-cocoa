@@ -63,10 +63,10 @@ if result6 == "NO" {
 }
 
 let result7 = diagonalDifference(arr: [[11, 2, 4],
-                                  [4, 5, 6],
-                                  [10, 8, -12]])
+                                       [4, 5, 6],
+                                       [10, 8, -12]])
 if result7 == 15 {
-    print ("diagonalDifference test success")
+    print("diagonalDifference test success")
 } else {
-    print ("diagonalDifference test fail")
+    print("diagonalDifference test fail")
 }
