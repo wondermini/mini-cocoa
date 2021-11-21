@@ -14,6 +14,7 @@
 		4F1B597F274798F500A83138 /* timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597E274798F500A83138 /* timeConversion.swift */; };
 		4F1B59812748CC9800A83138 /* two-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B59802748CC9800A83138 /* two-sum.swift */; };
 		4F1B5983274A471D00A83138 /* kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B5982274A471D00A83138 /* kangaroo.swift */; };
+		4F1B5985274A86A100A83138 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B5984274A86A000A83138 /* DiagonalDifference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,10 +38,19 @@
 		4F1B597E274798F500A83138 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
 		4F1B59802748CC9800A83138 /* two-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "two-sum.swift"; sourceTree = "<group>"; };
 		4F1B5982274A471D00A83138 /* kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kangaroo.swift; sourceTree = "<group>"; };
+		4F1B5984274A86A000A83138 /* DiagonalDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
+		4F1B598A274AA9E300A83138 /* unit_test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unit_test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F1B596B27475C5200A83138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1B5987274AA9E300A83138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				4F1B596E27475C5200A83138 /* week3day5 */,
+				4F1B598A274AA9E300A83138 /* unit_test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +82,7 @@
 			children = (
 				4F1B59802748CC9800A83138 /* two-sum.swift */,
 				4F1B597127475C5200A83138 /* main.swift */,
+				4F1B5984274A86A000A83138 /* DiagonalDifference.swift */,
 				4F1B5982274A471D00A83138 /* kangaroo.swift */,
 				4F1B597827475CE200A83138 /* grading.swift */,
 				4F1B597A27476F3100A83138 /* compareTheTriplets.swift */,
@@ -100,6 +112,23 @@
 			productReference = 4F1B596E27475C5200A83138 /* week3day5 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4F1B5989274AA9E300A83138 /* unit_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1B598E274AA9E300A83138 /* Build configuration list for PBXNativeTarget "unit_test" */;
+			buildPhases = (
+				4F1B5986274AA9E300A83138 /* Sources */,
+				4F1B5987274AA9E300A83138 /* Frameworks */,
+				4F1B5988274AA9E300A83138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unit_test;
+			productName = unit_test;
+			productReference = 4F1B598A274AA9E300A83138 /* unit_test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -111,6 +140,9 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					4F1B596D27475C5200A83138 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4F1B5989274AA9E300A83138 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -129,9 +161,20 @@
 			projectRoot = "";
 			targets = (
 				4F1B596D27475C5200A83138 /* week3day5 */,
+				4F1B5989274AA9E300A83138 /* unit_test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1B5988274AA9E300A83138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F1B596A27475C5200A83138 /* Sources */ = {
@@ -143,8 +186,16 @@
 				4F1B597227475C5200A83138 /* main.swift in Sources */,
 				4F1B597D274788E800A83138 /* aVeryBigSum.swift in Sources */,
 				4F1B5983274A471D00A83138 /* kangaroo.swift in Sources */,
+				4F1B5985274A86A100A83138 /* DiagonalDifference.swift in Sources */,
 				4F1B59812748CC9800A83138 /* two-sum.swift in Sources */,
 				4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1B5986274AA9E300A83138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +335,46 @@
 			};
 			name = Release;
 		};
+		4F1B598F274AA9E300A83138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mini.unit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4F1B5990274AA9E300A83138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mini.unit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -301,6 +392,15 @@
 			buildConfigurations = (
 				4F1B597627475C5200A83138 /* Debug */,
 				4F1B597727475C5200A83138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1B598E274AA9E300A83138 /* Build configuration list for PBXNativeTarget "unit_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1B598F274AA9E300A83138 /* Debug */,
+				4F1B5990274AA9E300A83138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
