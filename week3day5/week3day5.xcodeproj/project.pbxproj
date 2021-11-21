@@ -13,6 +13,7 @@
 		4F1B597D274788E800A83138 /* aVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597C274788E800A83138 /* aVeryBigSum.swift */; };
 		4F1B597F274798F500A83138 /* timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B597E274798F500A83138 /* timeConversion.swift */; };
 		4F1B59812748CC9800A83138 /* two-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B59802748CC9800A83138 /* two-sum.swift */; };
+		4F1B5983274A471D00A83138 /* kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B5982274A471D00A83138 /* kangaroo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		4F1B597C274788E800A83138 /* aVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aVeryBigSum.swift; sourceTree = "<group>"; };
 		4F1B597E274798F500A83138 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
 		4F1B59802748CC9800A83138 /* two-sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "two-sum.swift"; sourceTree = "<group>"; };
+		4F1B5982274A471D00A83138 /* kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kangaroo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,6 @@
 		4F1B596527475C5200A83138 = {
 			isa = PBXGroup;
 			children = (
-				4F1B59802748CC9800A83138 /* two-sum.swift */,
 				4F1B597027475C5200A83138 /* week3day5 */,
 				4F1B596F27475C5200A83138 /* Products */,
 			);
@@ -68,7 +69,9 @@
 		4F1B597027475C5200A83138 /* week3day5 */ = {
 			isa = PBXGroup;
 			children = (
+				4F1B59802748CC9800A83138 /* two-sum.swift */,
 				4F1B597127475C5200A83138 /* main.swift */,
+				4F1B5982274A471D00A83138 /* kangaroo.swift */,
 				4F1B597827475CE200A83138 /* grading.swift */,
 				4F1B597A27476F3100A83138 /* compareTheTriplets.swift */,
 				4F1B597C274788E800A83138 /* aVeryBigSum.swift */,
@@ -139,6 +142,7 @@
 				4F1B597F274798F500A83138 /* timeConversion.swift in Sources */,
 				4F1B597227475C5200A83138 /* main.swift in Sources */,
 				4F1B597D274788E800A83138 /* aVeryBigSum.swift in Sources */,
+				4F1B5983274A471D00A83138 /* kangaroo.swift in Sources */,
 				4F1B59812748CC9800A83138 /* two-sum.swift in Sources */,
 				4F1B597B27476F3100A83138 /* compareTheTriplets.swift in Sources */,
 			);

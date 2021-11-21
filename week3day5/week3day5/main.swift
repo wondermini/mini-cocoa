@@ -45,3 +45,19 @@ if result4 == "19:05:45" {
 } else {
     print("timeConversion test fail")
 }
+
+let result5 = kangaroo(x1: 0, v1: 3, x2: 4, v2: 2)
+
+if result5 == "YES" {
+    print("kangaroo test success")
+} else {
+    print("kangaroo test fail")
+}
+
+let result6 = kangaroo(x1: 0, v1: 2, x2: 5, v2: 3)
+
+if result6 == "NO" {
+    print("kangaroo test success")
+} else {
+    print("kangaroo test fail")
+}
