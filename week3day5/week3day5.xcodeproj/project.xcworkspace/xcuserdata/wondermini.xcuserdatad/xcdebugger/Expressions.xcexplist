@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "timeConversion(s:):timeConversion.swift">
+      </ContextState>
+      <ContextState
+         contextName = "kangaroo(x1:v1:x2:v2:):kangaroo.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "x2+(v2*jumpNum)">
+            </PersistentString>
+            <PersistentString
+               value = "x1+(v1*jumpNum)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

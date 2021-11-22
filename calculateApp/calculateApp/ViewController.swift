@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  calculatorApp
+//  calculateApp
 //
-//  Created by JUNGMIN KIM on 2021/11/19.
+//  Created by JUNGMIN KIM on 2021/11/22.
 //
 
 import UIKit
