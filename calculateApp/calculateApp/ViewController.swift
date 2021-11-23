@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //useInput은 거쳐가는 값 tempValue
     var first = ""
     var second = ""
     var fuction = ""
