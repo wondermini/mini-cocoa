@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F1B59F9274D07DD00A83138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B59F8274D07DD00A83138 /* main.swift */; };
 		4F1B5A00274D080200A83138 /* displayAllFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B59FF274D080200A83138 /* displayAllFiles.swift */; };
+		4F1B5A02274D192F00A83138 /* fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B5A01274D192F00A83138 /* fibonacci.swift */; };
+		4F1B5A04274D282300A83138 /* ladderGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B5A03274D282300A83138 /* ladderGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		4F1B59F5274D07DD00A83138 /* week4day2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week4day2; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1B59F8274D07DD00A83138 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F1B59FF274D080200A83138 /* displayAllFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayAllFiles.swift; sourceTree = "<group>"; };
+		4F1B5A01274D192F00A83138 /* fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci.swift; sourceTree = "<group>"; };
+		4F1B5A03274D282300A83138 /* ladderGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladderGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 		4F1B59EC274D07DD00A83138 = {
 			isa = PBXGroup;
 			children = (
+				4F1B5A03274D282300A83138 /* ladderGame.swift */,
 				4F1B59F7274D07DD00A83138 /* week4day2 */,
 				4F1B59F6274D07DD00A83138 /* Products */,
 			);
@@ -61,6 +66,7 @@
 			children = (
 				4F1B59F8274D07DD00A83138 /* main.swift */,
 				4F1B59FF274D080200A83138 /* displayAllFiles.swift */,
+				4F1B5A01274D192F00A83138 /* fibonacci.swift */,
 			);
 			path = week4day2;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1B5A00274D080200A83138 /* displayAllFiles.swift in Sources */,
+				4F1B5A04274D282300A83138 /* ladderGame.swift in Sources */,
 				4F1B59F9274D07DD00A83138 /* main.swift in Sources */,
+				4F1B5A02274D192F00A83138 /* fibonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,18 +7,15 @@
 
 import Foundation
 
-
-func displayAllFiles(at path:String) {
+func displayAllFiles(at path: String) {
     let fm = FileManager.default
-
     do {
         let items = try fm.contentsOfDirectory(atPath: path)
 
         for item in items {
-            print("Found \(item)")
+            print("\(item)")
         }
     } catch {
         // failed to read directory – bad permissions, perhaps?
     }
-
 }
