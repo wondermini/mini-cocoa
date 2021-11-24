@@ -11,7 +11,9 @@ displayAllFiles(at: "/Users")
 
 var fib = Fibonacci()
 
-print(fib.run(n: 4))
+//print(fib.run(n: 100))
+print(fib.forRun(n: 30))
+
 
 var ladderGame = LadderGame()
 
