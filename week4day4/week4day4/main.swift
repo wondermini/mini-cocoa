@@ -9,3 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
+plusMinus(arr:[1,1,0,-1,-1])
