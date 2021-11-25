@@ -8,7 +8,7 @@
 import Foundation
 
 func searchFiles(at path: String) -> [String] {
-    //fm은 fileManager 
+   
     let fm = FileManager.default
 
     var files = [String]()
