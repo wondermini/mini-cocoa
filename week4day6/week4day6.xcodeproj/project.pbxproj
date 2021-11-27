@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F4BDB5A2751E356000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB592751E356000564B7 /* main.swift */; };
 		4F4BDB612751E38F000564B7 /* getCenterCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB602751E38F000564B7 /* getCenterCharacter.swift */; };
+		4F4BDB7927526FF4000564B7 /* primeNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB7827526FF4000564B7 /* primeNum.swift */; };
+		4F4BDB7B27527B3F000564B7 /* baseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB7A27527B3F000564B7 /* baseballGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		4F4BDB602751E38F000564B7 /* getCenterCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getCenterCharacter.swift; sourceTree = "<group>"; };
 		4F4BDB662751E481000564B7 /* week4day6test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week4day6test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BDB7127524858000564B7 /* weekday6test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weekday6test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4BDB7827526FF4000564B7 /* primeNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeNum.swift; sourceTree = "<group>"; };
+		4F4BDB7A27527B3F000564B7 /* baseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseballGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				4F4BDB592751E356000564B7 /* main.swift */,
 				4F4BDB602751E38F000564B7 /* getCenterCharacter.swift */,
+				4F4BDB7827526FF4000564B7 /* primeNum.swift */,
+				4F4BDB7A27527B3F000564B7 /* baseballGame.swift */,
 			);
 			path = week4day6;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F4BDB5A2751E356000564B7 /* main.swift in Sources */,
+				4F4BDB7B27527B3F000564B7 /* baseballGame.swift in Sources */,
 				4F4BDB612751E38F000564B7 /* getCenterCharacter.swift in Sources */,
+				4F4BDB7927526FF4000564B7 /* primeNum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

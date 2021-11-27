@@ -18,3 +18,7 @@ if getCenterCharacter("qwer") == "we" {
 } else {
     print("test fail")
 }
+
+if solution(10) == 4 {
+    print("print count test success")
+}
