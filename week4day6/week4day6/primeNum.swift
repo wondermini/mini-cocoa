@@ -12,9 +12,9 @@ func solution(_ n: Int) -> Int {
     var counter = 0
 
     // 2부터 n까지 반복
-    Loop: for i in 2...n {
+    Loop: for i in 2 ... n {
         // 소수 체크
-        for j in 2..<Int(sqrt(Double(i)))+1 {
+        for j in 2 ..< Int(sqrt(Double(i))) + 1 {
             // i를 j로 나눠서 0이면 자기자신이 아닌 수로 나눠지므로 솟수가 아님
             if j != i, i % j == 0 {
                 continue Loop

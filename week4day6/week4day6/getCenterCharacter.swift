@@ -15,7 +15,6 @@ func getCenterCharacter(_ s: String) -> String {
         return String(tmpWordArr[halfIndexValue])
     } else {
         let roundHalfIndexValue = Int(round(Double(halfIndexValue)))
-        return String(tmpWordArr[roundHalfIndexValue]) + String(tmpWordArr[roundHalfIndexValue+1])
+        return String(tmpWordArr[roundHalfIndexValue]) + String(tmpWordArr[roundHalfIndexValue + 1])
     }
-
 }
