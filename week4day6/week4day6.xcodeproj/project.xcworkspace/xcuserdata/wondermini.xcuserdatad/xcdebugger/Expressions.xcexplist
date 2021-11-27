@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "getCenterCharacter(_:):getCenterCharacter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(tmpWordArr[halfIndexValue])">
+            </PersistentString>
+            <PersistentString
+               value = "tmpWordArr.endIndex-1 % 2">
+            </PersistentString>
+            <PersistentString
+               value = "s.count">
+            </PersistentString>
+            <PersistentString
+               value = "tmpWordArr.endIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
