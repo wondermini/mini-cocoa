@@ -31,3 +31,25 @@ if solution.reverse(0) == 0{
 } else {
     print("reverse test Success")
 }
+
+
+class Solution {
+    func reverse(_ x: Int) -> Int {
+        if x == 0 {
+            return x
+        }
+        let str = String(x)
+
+        var tmp = 0
+        if x < 0 {
+            let srt2 = str.dropFirst()
+            let rev = String(srt2.reversed())
+            tmp = Int(rev)!
+            tmp *= -1
+        } else {
+            let revStr = String(str.reversed())
+            tmp = Int(revStr)!
+        }
+        return tmp
+    }
+}

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct baseballGame {
+struct BaseballGame {
     var number: [Int]!
     
     mutating func newGame() {
