@@ -72,3 +72,7 @@ print(goodStart + end)
 // one
 // two
 // three
+
+
+pirntDiamond(lines:8)
+pirntDiamond(lines:9)
