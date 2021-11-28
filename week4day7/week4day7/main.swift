@@ -7,14 +7,13 @@
 
 import Foundation
 
-
 let anotherPoint = (2, 0)
 switch anotherPoint {
 case (let x, 0):
     print("on the x-axis with an x value of \(x)")
 case (0, let y):
     print("on the y-axis with a y value of \(y)")
-case let (x, y):
+case (let x, let y):
     print("somewhere else at (\(x), \(y))")
 }
 // Prints "on the x-axis with an x value of 2"
@@ -26,8 +25,8 @@ if let actualNumber = Int(possibleNumber) {
 } else {
     print("The string \"\(possibleNumber)\" could not be converted to an integer")
 }
-// Prints "The string "123" has an integer value of 123"
 
+// Prints "The string "123" has an integer value of 123"
 
 let possibleString: String? = "An optional string."
 let forcedString: String = possibleString! // requires an exclamation point
@@ -35,7 +34,7 @@ let forcedString: String = possibleString! // requires an exclamation point
 let assumedString: String! = "An implicitly unwrapped optional string."
 let implicitString: String = assumedString // no need for an exclamation point
 
-func trueFunc()-> Bool {
+func trueFunc() -> Bool {
     return false
 }
 
@@ -48,7 +47,6 @@ till you come to the end; then stop."
 """
 
 print(quotation)
-
 
 let badStart = """
 one
@@ -73,6 +71,10 @@ print(goodStart + end)
 // two
 // three
 
+print(pirntDiamond(lines: 8))
+print(pirntDiamond(lines: 9))
 
-pirntDiamond(lines:8)
-pirntDiamond(lines:9)
+print(print3515(lines: 15))
+
+var myladderGame = LadderGame()
+myladderGame.printLadder(ladderArr: myladderGame.bulidLadder(numOfPeople: myladderGame.enterNumOfpeople(), height: 4))

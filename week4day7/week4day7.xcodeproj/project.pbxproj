@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4F4BDB8B275394E9000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB8A275394E9000564B7 /* main.swift */; };
 		4F4BDB922753B8D5000564B7 /* baseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB912753B8D5000564B7 /* baseballGame.swift */; };
+		4F4BDB942753C089000564B7 /* print3515.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB932753C089000564B7 /* print3515.swift */; };
+		4F4BDB962753C56F000564B7 /* printDiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB952753C56F000564B7 /* printDiamond.swift */; };
+		4F4BDB982753C85B000564B7 /* ladderGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDB972753C85B000564B7 /* ladderGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		4F4BDB87275394E9000564B7 /* week4day7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week4day7; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BDB8A275394E9000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDB912753B8D5000564B7 /* baseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseballGame.swift; sourceTree = "<group>"; };
+		4F4BDB932753C089000564B7 /* print3515.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = print3515.swift; sourceTree = "<group>"; };
+		4F4BDB952753C56F000564B7 /* printDiamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printDiamond.swift; sourceTree = "<group>"; };
+		4F4BDB972753C85B000564B7 /* ladderGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ladderGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				4F4BDB8A275394E9000564B7 /* main.swift */,
+				4F4BDB972753C85B000564B7 /* ladderGame.swift */,
 				4F4BDB912753B8D5000564B7 /* baseballGame.swift */,
+				4F4BDB952753C56F000564B7 /* printDiamond.swift */,
+				4F4BDB932753C089000564B7 /* print3515.swift */,
 			);
 			path = week4day7;
 			sourceTree = "<group>";
@@ -125,6 +134,9 @@
 			files = (
 				4F4BDB8B275394E9000564B7 /* main.swift in Sources */,
 				4F4BDB922753B8D5000564B7 /* baseballGame.swift in Sources */,
+				4F4BDB962753C56F000564B7 /* printDiamond.swift in Sources */,
+				4F4BDB982753C85B000564B7 /* ladderGame.swift in Sources */,
+				4F4BDB942753C089000564B7 /* print3515.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
