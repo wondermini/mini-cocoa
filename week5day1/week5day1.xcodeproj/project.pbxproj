@@ -10,6 +10,7 @@
 		4F4BDBA627548C05000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBA527548C05000564B7 /* main.swift */; };
 		4F4BDBAD27548C52000564B7 /* miniMaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBAC27548C52000564B7 /* miniMaxSum.swift */; };
 		4F4BDBAF27549989000564B7 /* birthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBAE27549989000564B7 /* birthdayCakeCandles.swift */; };
+		4F4BDBB127551495000564B7 /* 2DarrayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBB027551495000564B7 /* 2DarrayPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4F4BDBA527548C05000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDBAC27548C52000564B7 /* miniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniMaxSum.swift; sourceTree = "<group>"; };
 		4F4BDBAE27549989000564B7 /* birthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birthdayCakeCandles.swift; sourceTree = "<group>"; };
+		4F4BDBB027551495000564B7 /* 2DarrayPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DarrayPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4F4BDBA527548C05000564B7 /* main.swift */,
 				4F4BDBAC27548C52000564B7 /* miniMaxSum.swift */,
 				4F4BDBAE27549989000564B7 /* birthdayCakeCandles.swift */,
+				4F4BDBB027551495000564B7 /* 2DarrayPractice.swift */,
 			);
 			path = week5day1;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4BDBB127551495000564B7 /* 2DarrayPractice.swift in Sources */,
 				4F4BDBA627548C05000564B7 /* main.swift in Sources */,
 				4F4BDBAF27549989000564B7 /* birthdayCakeCandles.swift in Sources */,
 				4F4BDBAD27548C52000564B7 /* miniMaxSum.swift in Sources */,
