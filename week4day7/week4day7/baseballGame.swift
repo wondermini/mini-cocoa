@@ -7,28 +7,3 @@
 
 import Foundation
 
-func pirntDiamond(lines: Int) {
-    var row = 1
-    while row <= lines {
-        if lines % 2 == 0 // n- even
-        {
-            if row <= lines/2 {
-                let star = String(repeating: "*", count: (row-1)*2+1)
-                let space = String(repeating: " ", count: (lines/2)-row)
-                print(space+star)
-            }
-        } else {// n- odd
-            if row < lines/2+1 {
-                let star = String(repeating: "$", count: (row-1)*2+1)
-                let space = String(repeating: " ", count: (lines/2)-row+1)
-                print(space+star)
-            }
-        }
-        if row > lines/2 {
-            let star = String(repeating: "#", count: (lines-row)*2+1)
-            let space = String(repeating: " ", count: row-((lines/2)+1))
-            print(space+star)
-        }
-        row += 1
-    }
-}
