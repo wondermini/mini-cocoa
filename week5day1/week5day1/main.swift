@@ -10,3 +10,5 @@ import Foundation
 print("Hello, World!")
 
 miniMaxSum(arr: [1, 2, 3, 4, 5])
+
+print(birthdayCakeCandles(candles: [3,2,1,3]))
