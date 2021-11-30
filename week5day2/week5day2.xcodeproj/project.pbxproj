@@ -10,6 +10,7 @@
 		4F4BDBBF2755B681000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBBE2755B681000564B7 /* main.swift */; };
 		4F4BDBC62755B68D000564B7 /* timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBC52755B68D000564B7 /* timeConversion.swift */; };
 		4F4BDBC82755EF8E000564B7 /* applesAndOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBC72755EF8E000564B7 /* applesAndOranges.swift */; };
+		4F4BDBCA275605B1000564B7 /* setBoolArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBC9275605B1000564B7 /* setBoolArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4F4BDBBE2755B681000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDBC52755B68D000564B7 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
 		4F4BDBC72755EF8E000564B7 /* applesAndOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applesAndOranges.swift; sourceTree = "<group>"; };
+		4F4BDBC9275605B1000564B7 /* setBoolArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setBoolArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				4F4BDBBE2755B681000564B7 /* main.swift */,
+				4F4BDBC9275605B1000564B7 /* setBoolArray.swift */,
 				4F4BDBC52755B68D000564B7 /* timeConversion.swift */,
 				4F4BDBC72755EF8E000564B7 /* applesAndOranges.swift */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4BDBCA275605B1000564B7 /* setBoolArray.swift in Sources */,
 				4F4BDBBF2755B681000564B7 /* main.swift in Sources */,
 				4F4BDBC62755B68D000564B7 /* timeConversion.swift in Sources */,
 				4F4BDBC82755EF8E000564B7 /* applesAndOranges.swift in Sources */,

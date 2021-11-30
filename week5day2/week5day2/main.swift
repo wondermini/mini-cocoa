@@ -28,3 +28,5 @@ if (timeConversion(s: "07:05:45PM") == "19:05:45") {
 
 countApplesAndOranges(s: 7, t: 10, a: 4, b: 12, apples: [2,3,-4], oranges: [3,-2,-4])
 
+var array = Array()
+array.printArray(array: array.setBoolArray(lines: 7), newChar: "$")
