@@ -1,0 +1,26 @@
+//
+//  main.swift
+//  week5day2
+//
+//  Created by JUNGMIN KIM on 2021/11/30.
+//
+
+import Foundation
+
+print("Hello, World!")
+
+if (timeConversion(s: "12:01:00PM") == "12:01:00") {
+    print("timeConversion test success!")
+} else {
+    print("timeConversion test fail!")
+}
+if (timeConversion(s: "12:01:00AM") == "00:01:00") {
+    print("timeConversion test success!")
+} else {
+    print("timeConversion test fail!")
+}
+if (timeConversion(s: "07:05:45PM") == "19:05:45") {
+    print("timeConversion test success!")
+} else {
+    print("timeConversion test fail!")
+}
