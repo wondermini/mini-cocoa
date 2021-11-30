@@ -30,3 +30,9 @@ countApplesAndOranges(s: 7, t: 10, a: 4, b: 12, apples: [2,3,-4], oranges: [3,-2
 
 var array = Array()
 array.printArray(array: array.setBoolArray(lines: 7), newChar: "$")
+
+
+var magicSquare = MagicSquare()
+magicSquare.printArray(array: magicSquare.makeMagicSquare(row: 3))
+magicSquare.printArray(array: magicSquare.makeMagicSquare(row: 5))
+magicSquare.printArray(array: magicSquare.makeMagicSquare(row: 7))
