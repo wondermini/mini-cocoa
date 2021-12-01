@@ -46,7 +46,6 @@ struct MagicSquare {
         return magicSquareArray
     }
 
-    func f(n: Int, x: Int, y: Int) {}
 
     func printArray(array: [[Int]]) {
         for rowArray in array {
@@ -57,3 +56,4 @@ struct MagicSquare {
         }
     }
 }
+
