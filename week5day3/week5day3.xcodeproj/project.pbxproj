@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F4BDBDA275713B7000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBD9275713B7000564B7 /* main.swift */; };
 		4F4BDBE1275713D5000564B7 /* betweenTowSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBE0275713D5000564B7 /* betweenTowSets.swift */; };
+		4F4BDBE32757D4D1000564B7 /* IDValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDBE22757D4D1000564B7 /* IDValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F4BDBD6275713B7000564B7 /* week5day3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week5day3; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BDBD9275713B7000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDBE0275713D5000564B7 /* betweenTowSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betweenTowSets.swift; sourceTree = "<group>"; };
+		4F4BDBE22757D4D1000564B7 /* IDValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IDValidator.swift; path = ../../../../../../Desktop/IDValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4F4BDBD9275713B7000564B7 /* main.swift */,
 				4F4BDBE0275713D5000564B7 /* betweenTowSets.swift */,
+				4F4BDBE22757D4D1000564B7 /* IDValidator.swift */,
 			);
 			path = week5day3;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				4F4BDBE1275713D5000564B7 /* betweenTowSets.swift in Sources */,
 				4F4BDBDA275713B7000564B7 /* main.swift in Sources */,
+				4F4BDBE32757D4D1000564B7 /* IDValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
