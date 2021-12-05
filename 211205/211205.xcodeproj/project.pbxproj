@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F4BDC08275C73A2000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC07275C73A2000564B7 /* main.swift */; };
 		4F4BDC0F275C740C000564B7 /*  subarrayDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC0E275C740C000564B7 /*  subarrayDivision.swift */; };
+		4F4BDC11275CA2CC000564B7 /* divisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC10275CA2CC000564B7 /* divisibleSumPairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F4BDC04275C73A2000564B7 /* 211205 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211205; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BDC07275C73A2000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDC0E275C740C000564B7 /*  subarrayDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " subarrayDivision.swift"; sourceTree = "<group>"; };
+		4F4BDC10275CA2CC000564B7 /* divisibleSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divisibleSumPairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4F4BDC07275C73A2000564B7 /* main.swift */,
 				4F4BDC0E275C740C000564B7 /*  subarrayDivision.swift */,
+				4F4BDC10275CA2CC000564B7 /* divisibleSumPairs.swift */,
 			);
 			path = 211205;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F4BDC0F275C740C000564B7 /*  subarrayDivision.swift in Sources */,
+				4F4BDC11275CA2CC000564B7 /* divisibleSumPairs.swift in Sources */,
 				4F4BDC08275C73A2000564B7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
