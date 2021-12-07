@@ -20,3 +20,9 @@ if result == 3 {
 }else{
     print("migratoryBirds test is fail")
 }
+
+
+//bonAppetit
+bonAppetit(bill: [3,10,2,9], k: 1, b: 12)
+ 
+bonAppetit(bill: [3,10,2,9], k: 1, b: 7)
