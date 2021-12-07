@@ -10,7 +10,7 @@ import Foundation
 func bonAppetit(bill: [Int], k: Int, b: Int) -> Void {
     // Write your code here
     var refund = 0
-    var didnotEatItemCost = bill[k]
+    let didnotEatItemCost = bill[k]
     let sumAllCost = bill.reduce(0, +)
     let annaPay = (sumAllCost - didnotEatItemCost)/2
     if annaPay == b {
