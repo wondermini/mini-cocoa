@@ -33,3 +33,24 @@ if pageCount(n: 5, p: 4) == 0{
 }else{
     print("pageCount test is fail")
 }
+//countingValleys
+
+if countingValleys(steps: 8, path: "DDUUUUDD") == 1{
+    print("countingValleys test is success")
+}else{
+    print("countingValleys test is fail")
+}
+
+if countingValleys(steps: 8, path: "UDDDUDUU") == 1{
+    print("countingValleys test is success")
+}else{
+    print("countingValleys test is fail")
+}
+
+
+if countingValleys(steps: 12, path: "DDUUDDUDUUUD") == 2{
+    print("countingValleys test is success")
+}else{
+    print("countingValleys test is fail")
+}
+

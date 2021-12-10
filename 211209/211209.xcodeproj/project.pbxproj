@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F4BDC622761A09A000564B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC612761A09A000564B7 /* main.swift */; };
 		4F4BDC692761A0CA000564B7 /* drawingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC682761A0CA000564B7 /* drawingBook.swift */; };
+		4F4BDC6B2761CD54000564B7 /* countingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BDC6A2761CD54000564B7 /* countingValleys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F4BDC5E2761A09A000564B7 /* 211209 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211209; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BDC612761A09A000564B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F4BDC682761A0CA000564B7 /* drawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingBook.swift; sourceTree = "<group>"; };
+		4F4BDC6A2761CD54000564B7 /* countingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countingValleys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4F4BDC612761A09A000564B7 /* main.swift */,
 				4F4BDC682761A0CA000564B7 /* drawingBook.swift */,
+				4F4BDC6A2761CD54000564B7 /* countingValleys.swift */,
 			);
 			path = 211209;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4BDC6B2761CD54000564B7 /* countingValleys.swift in Sources */,
 				4F4BDC622761A09A000564B7 /* main.swift in Sources */,
 				4F4BDC692761A0CA000564B7 /* drawingBook.swift in Sources */,
 			);
