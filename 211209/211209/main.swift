@@ -54,3 +54,8 @@ if countingValleys(steps: 12, path: "DDUUDDUDUUUD") == 2{
     print("countingValleys test is fail")
 }
 
+if countingValleys(steps: 10, path: "UDUUUDUDDD") == 0{
+    print("countingValleys test is success")
+}else{
+    print("countingValleys test is fail")
+}
