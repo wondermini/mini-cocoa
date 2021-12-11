@@ -34,3 +34,23 @@ if getMoneySpent(keyboards: keyBoardsArr, drives: drivesArr, b: 729580) == 72958
 }else{
     print("getMoneySpent test is fail")
 }
+
+
+//catAndMouse
+if catAndMouse(x: 2, y: 5, z: 4) == "Cat B"{
+    print("catAndMouse test is success")
+}else{
+    print("catAndMouse test is fail")
+}
+
+if catAndMouse(x: 1, y: 2, z: 3) == "Cat B"{
+    print("catAndMouse test is success")
+}else{
+    print("catAndMouse test is fail")
+}
+
+if catAndMouse(x: 1, y: 3, z: 2) == "Mouse C"{
+    print("catAndMouse test is success")
+}else{
+    print("catAndMouse test is fail")
+}
