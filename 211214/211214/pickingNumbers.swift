@@ -28,5 +28,6 @@ func pickingNumbers(a: [Int]) -> Int {
         }
         result = numbers.count > result.count ? numbers : result
     }
+    print(result)
     return result.count
 }
