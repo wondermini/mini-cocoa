@@ -11,7 +11,7 @@ class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var result = [Int]()
         for index in 0 ..< nums.count {
-            for innerIndex in index+1 ..< nums.count {
+            for innerIndex in index + 1 ..< nums.count {
                 let sum = nums[index] + nums[innerIndex]
                 if target == sum {
                     result.append(index)
