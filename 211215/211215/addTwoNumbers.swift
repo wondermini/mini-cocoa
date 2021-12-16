@@ -7,6 +7,14 @@
 
 import Foundation
 
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+}
+
 class Solution1 {
     func addTwoNumbers(_ l1: [Int], _ l2: [Int]) -> [Int] {
         let l1ReversedMerge = l1.reversed().map { "\($0)" }.reduce("") { $0+$1 }
@@ -17,5 +25,5 @@ class Solution1 {
         let sumDigitsString = String(l1ReversedMergeInt!)
         let result: [Int] = sumDigitsString.compactMap { $0.wholeNumberValue }
         return result.reversed()
-    }
+    }vv
 }
