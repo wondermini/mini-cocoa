@@ -46,3 +46,17 @@ let yourMiddleSchoolName = SchoolDetail.middle(name: "미니중학교")
 print("yourMiddleSchoolName: \(yourMiddleSchoolName)")
 
 print("yourMiddleSchoolName: \(yourMiddleSchoolName.getName())")
+
+
+var mySolution = Solution()
+if mySolution.findMedianSortedArrays([1,3], [2]) == 2.00000 {
+    print("findMedianSortedArrays test is success")
+}else{
+    print("findMedianSortedArrays test is fail")
+}
+
+if mySolution.findMedianSortedArrays([1,2], [3,4]) == 2.50000 {
+    print("findMedianSortedArrays test is success")
+}else{
+    print("findMedianSortedArrays test is fail")
+}
