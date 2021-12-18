@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F85379E276C7E0900C41BDE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85379D276C7E0900C41BDE /* main.swift */; };
 		4F8537A5276C7E1400C41BDE /* medianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8537A4276C7E1400C41BDE /* medianOfTwoSortedArrays.swift */; };
+		4F8537A7276E376100C41BDE /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8537A6276E376100C41BDE /* longestPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F85379A276C7E0900C41BDE /* 211217 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211217; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F85379D276C7E0900C41BDE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F8537A4276C7E1400C41BDE /* medianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
+		4F8537A6276E376100C41BDE /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				4F85379D276C7E0900C41BDE /* main.swift */,
+				4F8537A6276E376100C41BDE /* longestPalindrome.swift */,
 				4F8537A4276C7E1400C41BDE /* medianOfTwoSortedArrays.swift */,
 			);
 			path = 211217;
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F85379E276C7E0900C41BDE /* main.swift in Sources */,
+				4F8537A7276E376100C41BDE /* longestPalindrome.swift in Sources */,
 				4F8537A5276C7E1400C41BDE /* medianOfTwoSortedArrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

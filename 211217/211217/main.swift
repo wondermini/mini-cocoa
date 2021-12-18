@@ -60,3 +60,17 @@ if mySolution.findMedianSortedArrays([1,2], [3,4]) == 2.50000 {
 }else{
     print("findMedianSortedArrays test is fail")
 }
+
+
+var mySolution2 = Solution2()
+if mySolution2.longestPalindrome("babad") == "bab"{
+    print("longestPalindrome test is success")
+}else{
+    print("longestPalindrome test is fail")
+}
+
+if mySolution2.longestPalindrome("cbbd") == "bb"{
+    print("longestPalindrome test is success")
+}else{
+    print("longestPalindrome test is fail")
+}
