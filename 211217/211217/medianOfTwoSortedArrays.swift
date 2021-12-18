@@ -11,12 +11,11 @@ class Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         var result = 0.0
         var mergeNums = nums1 + nums2
+        let halfIndex = (mergeNums.count-1)/2
         mergeNums = mergeNums.sorted()
         if mergeNums.count % 2 == 0 {
-            let halfIndex = (mergeNums.count-1)/2
             result = Double(mergeNums[halfIndex] + mergeNums[halfIndex + 1])/2
         } else {
-            let halfIndex = (mergeNums.count-1)/2
             result = Double(mergeNums[halfIndex])
         }
         print(result)
