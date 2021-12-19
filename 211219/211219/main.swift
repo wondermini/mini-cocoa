@@ -32,3 +32,22 @@ if mysolution.isPalindrome(0) == true{
 }else{
     print("isPalindrome test is fail")
 }
+
+//isMatch
+if isMatch("aa", "a") == false{
+    print("isMatch test is success")
+}else{
+    print("isMatch test is fail")
+}
+
+if isMatch("aa", "a*") == true{
+    print("isMatch test is success")
+}else{
+    print("isMatch test is fail")
+}
+
+if isMatch("ab", ".*") == true{
+    print("isMatch test is success")
+}else{
+    print("isMatch test is fail")
+}

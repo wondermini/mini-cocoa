@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F2A2BFB276F78FE00AF6272 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A2BFA276F78FE00AF6272 /* main.swift */; };
 		4F2A2C02276F791B00AF6272 /* palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A2C01276F791B00AF6272 /* palindromeNumber.swift */; };
+		4F2A2C04276F875400AF6272 /* regularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A2C03276F875400AF6272 /* regularExpressionMatching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4F2A2BF7276F78FE00AF6272 /* 211219 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211219; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A2BFA276F78FE00AF6272 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F2A2C01276F791B00AF6272 /* palindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeNumber.swift; sourceTree = "<group>"; };
+		4F2A2C03276F875400AF6272 /* regularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regularExpressionMatching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4F2A2BFA276F78FE00AF6272 /* main.swift */,
 				4F2A2C01276F791B00AF6272 /* palindromeNumber.swift */,
+				4F2A2C03276F875400AF6272 /* regularExpressionMatching.swift */,
 			);
 			path = 211219;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2A2BFB276F78FE00AF6272 /* main.swift in Sources */,
+				4F2A2C04276F875400AF6272 /* regularExpressionMatching.swift in Sources */,
 				4F2A2C02276F791B00AF6272 /* palindromeNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
