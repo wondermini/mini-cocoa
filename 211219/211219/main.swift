@@ -20,3 +20,15 @@ if mysolution.isPalindrome(-121) == false{
 }else{
     print("isPalindrome test is fail")
 }
+
+if mysolution.isPalindrome(10) == false{
+    print("isPalindrome test is success")
+}else{
+    print("isPalindrome test is fail")
+}
+
+if mysolution.isPalindrome(0) == true{
+    print("isPalindrome test is success")
+}else{
+    print("isPalindrome test is fail")
+}
