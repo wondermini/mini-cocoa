@@ -9,12 +9,12 @@ import Foundation
 
 class Solution2 {
     func expandAroundCenter(charArray: [Character], left: Int, right: Int) -> Int {
-        var L = left, R = right
-        while L >= 0 && R < charArray.count && charArray[L] == charArray[R] {
-            L -= 1
-            R += 1
+        var leftIndex = left, rightIndex = right
+        while leftIndex >= 0 && rightIndex < charArray.count && charArray[leftIndex] == charArray[rightIndex] {
+            leftIndex -= 1
+            rightIndex += 1
         }
-        return R - L - 1
+        return rightIndex - leftIndex - 1
     }
 
     func longestPalindrome(_ s: String) -> String {
@@ -24,7 +24,9 @@ class Solution2 {
         let charArray = Array(s)
         var start = 0, end = 0
         for i in 0 ..< charArray.count {
+            //홀수 펠린드롬 검사
             let len1 = expandAroundCenter(charArray: charArray, left: i, right: i)
+            //짝수 펠린드롬 검사
             let len2 = expandAroundCenter(charArray: charArray, left: i, right: i + 1)
             let len = max(len1, len2)
             if len > end - start {
