@@ -74,3 +74,4 @@ if mySolution2.longestPalindrome("cbbd") == "bb"{
 }else{
     print("longestPalindrome test is fail")
 }
+
