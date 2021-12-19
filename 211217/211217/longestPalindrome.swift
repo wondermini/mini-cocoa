@@ -10,6 +10,7 @@ import Foundation
 class Solution2 {
     func longestPalindrome(_ s: String) -> String {
         
+        return ""
     }
-    return "0"
+    
 }
