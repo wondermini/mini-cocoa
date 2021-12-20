@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				4F2A2BFA276F78FE00AF6272 /* main.swift */,
-				4F2A2C01276F791B00AF6272 /* palindromeNumber.swift */,
 				4F2A2C03276F875400AF6272 /* regularExpressionMatching.swift */,
+				4F2A2C01276F791B00AF6272 /* palindromeNumber.swift */,
 			);
 			path = 211219;
 			sourceTree = "<group>";
