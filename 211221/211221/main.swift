@@ -37,3 +37,37 @@ func unwrap(_ parameter:Int?) {
     }
     print("unWrappedParm: \(unWrappedParam)")
 }
+
+for index in 0..<5 where index % 2 == 0 {
+    print("미니 짝수 index: \(index)")
+}
+
+var randomInts: [Int] = [Int]()
+
+for _ in 0..<25 {
+    let randomNumber = Int.random(in: 0...100)
+    randomInts.append(randomNumber)
+}
+
+print("randomInts: \(randomInts)")
+
+//romanToInt
+
+var mySolution = Solution()
+if mySolution.romanToInt("III") == 3 {
+    print("romanToInt test is success")
+}else{
+    print("romanToInt test is fail")
+}
+
+if mySolution.romanToInt("LVIII") == 58 {
+    print("romanToInt test is success")
+}else{
+    print("romanToInt test is fail")
+}
+ 
+if mySolution.romanToInt("MCMXCIV") == 1994 {
+    print("romanToInt test is success")
+}else{
+    print("romanToInt test is fail")
+}
