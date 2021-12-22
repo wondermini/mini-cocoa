@@ -28,14 +28,14 @@ class Solution {
             } else if element == "M" {
                 arrValue.append(1000)
             }
-            
+
         }
-        
+
         var index = 0
         for _ in 0 ..< arrValue.count {
             if index < arrValue.count - 1 && arrValue[index] >= arrValue[index+1] {
                 totalResult += arrValue[index]
-                
+
             } else if index < arrValue.count - 1 && arrValue[index] < arrValue[index+1] {
                 let substractTwo = arrValue[index+1] - arrValue[index]
                 totalResult += substractTwo
@@ -45,8 +45,9 @@ class Solution {
             }
             index += 1
         }
-        
+
         print(totalResult)
         return totalResult
     }
 }
+
