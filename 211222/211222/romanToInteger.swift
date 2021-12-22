@@ -7,8 +7,7 @@
 
 import Foundation
 
-
-//class Solution {
+// class Solution {
 //    let dictionary = [
 //        "I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000,
 //        "XL" : 40
@@ -19,49 +18,29 @@ import Foundation
 //    ]
 //
 //
-//}
+// }
 
 class Solution {
-    func romanLetterToInt(_ ch: Character) -> Int {
-        switch (ch) {
-            case "I":
-                return 1
-                break
-            case "V":
-                return 5
-                break
-            case "X":
-                return 10
-                break
-            case "L":
-                return 50
-                break
-            case "C":
-                return 100
-                break
-            case "D":
-                return 500
-                break
-            case "M":
-                return 1000
-                break
-            default:
-                return -1
-        }
-    }
-    
+    let romanLetterToInt: [Character: Int] = ["I": 1,
+                                              "V": 5,
+                                              "X": 10,
+                                              "L": 50,
+                                              "C": 100,
+                                              "D": 500,
+                                              "M": 1000]
+
     func romanToInt(_ s: String) -> Int {
         let chars = Array(s)
         var result = 0
-        
-        for i in 0..<chars.count {
-            if i < chars.count - 1 && romanLetterToInt(chars[i]) < romanLetterToInt(chars[i + 1]) {
-                result -= romanLetterToInt(chars[i])
+
+        for i in 0 ..< chars.count {
+            if i < chars.count - 1, romanLetterToInt[chars[i]]! < romanLetterToInt[chars[i + 1]]! {
+                result -= romanLetterToInt[chars[i]]!
                 continue
             }
-            result += romanLetterToInt(chars[i])
+            result += romanLetterToInt[chars[i]]!
         }
-        
+
         return result
     }
 }

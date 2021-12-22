@@ -19,3 +19,21 @@ print(myValue.squared)
 print(3.0.squared)
 
 
+var mySolution = Solution()
+if mySolution.romanToInt("III") == 3 {
+    print("romanToInt test is success")
+} else {
+    print("romanToInt test is fail")
+}
+
+if mySolution.romanToInt("LVIII") == 58 {
+    print("romanToInt test is success")
+} else {
+    print("romanToInt test is fail")
+}
+
+if mySolution.romanToInt("MCMXCIV") == 1994 {
+    print("romanToInt test is success")
+} else {
+    print("romanToInt test is fail")
+}
