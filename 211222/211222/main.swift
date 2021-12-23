@@ -37,3 +37,16 @@ if mySolution.romanToInt("MCMXCIV") == 1994 {
 } else {
     print("romanToInt test is fail")
 }
+//longestCommonPrefix
+var mySolution2 = Solution2()
+if mySolution2.longestCommonPrefix(["flower","flow","flight"]) == "fl" {
+    print("longestCommonPrefix test is success")
+}else {
+    print("longestCommonPrefix test is fail")
+}
+
+if mySolution2.longestCommonPrefix(["dog","racecar","car"]) == "" {
+    print("longestCommonPrefix test is success")
+}else {
+    print("longestCommonPrefix test is fail")
+}

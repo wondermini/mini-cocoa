@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4FE41E602773183D00922899 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE41E5F2773183D00922899 /* main.swift */; };
 		4FE41E67277318A500922899 /* romanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE41E66277318A500922899 /* romanToInteger.swift */; };
+		4FE41E6927737C0D00922899 /* longestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE41E6827737C0D00922899 /* longestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4FE41E5C2773183D00922899 /* 211222 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211222; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE41E5F2773183D00922899 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FE41E66277318A500922899 /* romanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanToInteger.swift; sourceTree = "<group>"; };
+		4FE41E6827737C0D00922899 /* longestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				4FE41E5F2773183D00922899 /* main.swift */,
+				4FE41E6827737C0D00922899 /* longestCommonPrefix.swift */,
 				4FE41E66277318A500922899 /* romanToInteger.swift */,
 			);
 			path = 211222;
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE41E6927737C0D00922899 /* longestCommonPrefix.swift in Sources */,
 				4FE41E602773183D00922899 /* main.swift in Sources */,
 				4FE41E67277318A500922899 /* romanToInteger.swift in Sources */,
 			);
