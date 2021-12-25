@@ -8,6 +8,30 @@
 import Foundation
 
 func isValid(_ s: String) -> Bool {
-    
-    return false
+    let arr = Array(s)
+    var stack = [Character]()
+    let openChar = "([{"
+    let brackets: [Character: Character] = [")": "(", "]": "[", "}": "{"]
+
+    for i in arr {
+        if openChar.contains(i) {
+            stack.append(i)
+        } else {
+            if stack.isEmpty {
+                return false
+            }
+
+            if stack.last == brackets[i] {
+                stack.removeLast()
+            } else {
+                return false
+            }
+        }
+    }
+
+    if stack.isEmpty {
+        return true
+    } else {
+        return false
+    }
 }
