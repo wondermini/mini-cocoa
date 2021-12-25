@@ -7,5 +7,20 @@
 
 import Foundation
 
-print("Hello, World!")
+if isValid("()") == true {
+    print("isValid test success")
+} else {
+    print("isValid test fail")
+}
 
+if isValid("()[]{}") == true {
+    print("isValid test success")
+} else {
+    print("isValid test fail")
+}
+
+if isValid("(]") == false {
+    print("isValid test success")
+} else {
+    print("isValid test fail")
+}
