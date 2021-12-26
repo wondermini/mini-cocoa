@@ -8,15 +8,10 @@
 import Foundation
 
 
-if mergeTwoLists([], []) == [] {
+if mergeTwoLists(nil, nil) == nil {
    print("mergeTwoLists test is success")
 }else {
    print("mergeTwoLists test is fail")
 }
 
 
-if mergeTwoLists([], [0]) == [0] {
-   print("mergeTwoLists test is success")
-}else {
-   print("mergeTwoLists test is fail")
-}
