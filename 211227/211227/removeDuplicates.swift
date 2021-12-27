@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 func removeDuplicates(_ nums: inout [Int]) -> Int {
-        return 0
-    }
+    return 0
+}
