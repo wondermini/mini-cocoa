@@ -21,3 +21,10 @@ if removeDuplicates(&nums) == 5, nums == [0, 1, 2, 3, 4] {
 } else {
     print("removeDuplicates test is fail")
 }
+
+nums = [1]
+if removeDuplicates(&nums) == 1, nums == [1] {
+    print("removeDuplicates test is success")
+} else {
+    print("removeDuplicates test is fail")
+}
