@@ -8,5 +8,6 @@
 import Foundation
 
 func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
-    return 0
+    nums = nums.filter { $0 != val }
+    return nums.count
 }
