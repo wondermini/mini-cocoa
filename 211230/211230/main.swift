@@ -26,3 +26,22 @@ if searchInsert([1,3,5,6], 7) == 4 {
 }else {
     print("searchInsert test is fail")
 }
+
+//maxSubArray
+if maxSubArray([-2,1,-3,4,-1,2,1,-5,4]) == 6 {
+    print("maxSubArray test is success")
+}else {
+    print("maxSubArray test is fail")
+}
+
+if maxSubArray([1]) == 1 {
+    print("maxSubArray test is success")
+}else {
+    print("maxSubArray test is fail")
+}
+
+if maxSubArray([5,4,-1,7,8]) == 23 {
+    print("maxSubArray test is success")
+}else {
+    print("maxSubArray test is fail")
+}
