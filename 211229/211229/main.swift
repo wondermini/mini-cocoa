@@ -11,18 +11,30 @@ print("Hello, World!")
 
 if strStr("hello", "ll") == 2 {
     print("strStr test is success")
-}else {
+} else {
     print("strStr test is fail")
 }
 
 if strStr("aaaaa", "bba") == -1 {
     print("strStr test is success")
-}else {
+} else {
     print("strStr test is fail")
 }
 
 if strStr("", "") == 0 {
     print("strStr test is success")
-}else {
+} else {
+    print("strStr test is fail")
+}
+
+if strStr("a", "") == 0 {
+    print("strStr test is success")
+} else {
+    print("strStr test is fail")
+}
+
+if strStr("", "a") == -1 {
+    print("strStr test is success")
+} else {
     print("strStr test is fail")
 }
