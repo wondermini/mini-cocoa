@@ -10,6 +10,7 @@
 		4F0EEFF8277DF4AB008FE87E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EEFF7277DF4AB008FE87E /* main.swift */; };
 		4F0EEFFF277DF4CC008FE87E /* searchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EEFFE277DF4CC008FE87E /* searchInsert.swift */; };
 		4F0EF001277DFBAA008FE87E /* maxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EF000277DFBAA008FE87E /* maxSubArray.swift */; };
+		4F0EF003277F36EB008FE87E /* lengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EF002277F36EB008FE87E /* lengthOfLastWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4F0EEFF7277DF4AB008FE87E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F0EEFFE277DF4CC008FE87E /* searchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchInsert.swift; sourceTree = "<group>"; };
 		4F0EF000277DFBAA008FE87E /* maxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxSubArray.swift; sourceTree = "<group>"; };
+		4F0EF002277F36EB008FE87E /* lengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lengthOfLastWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4F0EEFF7277DF4AB008FE87E /* main.swift */,
 				4F0EEFFE277DF4CC008FE87E /* searchInsert.swift */,
 				4F0EF000277DFBAA008FE87E /* maxSubArray.swift */,
+				4F0EF002277F36EB008FE87E /* lengthOfLastWord.swift */,
 			);
 			path = 211230;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0EF003277F36EB008FE87E /* lengthOfLastWord.swift in Sources */,
 				4F0EEFFF277DF4CC008FE87E /* searchInsert.swift in Sources */,
 				4F0EF001277DFBAA008FE87E /* maxSubArray.swift in Sources */,
 				4F0EEFF8277DF4AB008FE87E /* main.swift in Sources */,
