@@ -7,8 +7,7 @@
 
 import Foundation
 
-
 func lengthOfLastWord(_ s: String) -> Int {
-  
-    return 0
+    let arrSplit = s.split(separator: " ")
+    return arrSplit.last!.count
 }
