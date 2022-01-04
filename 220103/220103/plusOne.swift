@@ -7,11 +7,21 @@
 
 import Foundation
 
-
 func plusOne(_ digits: [Int]) -> [Int] {
-    let strDigits = digits.map { String($0) }
-    let joined = strDigits.joined()
-    let tmp = Int(joined)! + 1
-    let result = String(tmp).compactMap{ $0.wholeNumberValue }
-    return result
- }
+    var nums = digits
+    
+    for (i, n) in digits.enumerated().reversed() {
+        if n < 9 {
+            nums[i] += 1
+            return nums
+        }
+
+        nums[i] = 0
+    }
+
+    if nums.first == 0 {
+        nums.insert(1, at: 0)
+    }
+
+    return nums
+}
