@@ -9,6 +9,9 @@ import Foundation
 
 
 func plusOne(_ digits: [Int]) -> [Int] {
-     
-    return [0]
+    let strDigits = digits.map { String($0) }
+    let joined = strDigits.joined()
+    let tmp = Int(joined)! + 1
+    let result = String(tmp).compactMap{ $0.wholeNumberValue }
+    return result
  }
