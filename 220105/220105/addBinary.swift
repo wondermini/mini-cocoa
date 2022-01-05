@@ -14,22 +14,16 @@ func addBinary(_ a: String, _ b: String) -> String {
     arrB = arrB.reversed()
     var result = [Int]()
     var round = 0
-    var count = 0
+    let length = max(arrA.count, b.count)
 
-    if arrA.count >= arrB.count {
-        count = arrA.count
-    } else {
-        count = arrB.count
-    }
-
-    for i in 0 ..< count {
+    for index in 0 ..< length {
         var a = 0
-        if i < arrA.count {
-            a = arrA[i]
+        if index < arrA.count {
+            a = arrA[index]
         }
         var b = 0
-        if i < arrB.count {
-            b = arrB[i]
+        if index < arrB.count {
+            b = arrB[index]
         }
 
         let sum = a + b + round
@@ -44,11 +38,10 @@ func addBinary(_ a: String, _ b: String) -> String {
             result.append(sum)
         }
     }
+    
     if round == 1 {
         result.append(1)
     }
-    result.reverse()
-    let tmp = result.map { String($0) }.joined()
-    print(tmp)
-    return tmp
+    
+    return result.reversed().map { String($0) }.joined()
 }
