@@ -8,10 +8,12 @@
 import Foundation
 
 func addBinary(_ a: String, _ b: String) -> String {
+    
     var arrA = a.map { Int(String($0))! }
     arrA = arrA.reversed()
     var arrB = b.map { Int(String($0))! }
     arrB = arrB.reversed()
+    
     var result = [Int]()
     var round = 0
     let length = max(arrA.count, b.count)
@@ -27,21 +29,23 @@ func addBinary(_ a: String, _ b: String) -> String {
         }
 
         let sum = a + b + round
-        if sum == 3 {
+        
+        switch sum {
+        case 3:
             round = 1
             result.append(1)
-        } else if sum == 2 {
+        case 2:
             round = 1
             result.append(0)
-        } else {
+        default:
             round = 0
             result.append(sum)
         }
     }
-    
+
     if round == 1 {
         result.append(1)
     }
-    
+
     return result.reversed().map { String($0) }.joined()
 }
