@@ -8,5 +8,5 @@
 import Foundation
 
 func mySqrt(_ x: Int) -> Int {
-    return 0
-}
+       return Int(sqrt(Double(x)))
+   }
