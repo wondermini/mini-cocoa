@@ -16,7 +16,7 @@ func climbStairs(_ n: Int) -> Int {
     var prev = 3
     var count = 4
     while count != n {
-        var newPrev = prevPrev + prev
+        let newPrev = prevPrev + prev
         prevPrev = prev
         prev = newPrev
         count += 1
