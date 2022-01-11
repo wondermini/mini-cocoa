@@ -19,8 +19,15 @@ import Foundation
  * }
  */
 
-    func deleteDuplicates(_ head: ListNode?) -> ListNode? {
-        
-        return [0]
-    }
+func deleteDuplicates(head: ListNode?) -> ListNode? {
+        var currentNode = head
+        while currentNode?.next != nil {
+            if currentNode!.val == currentNode!.next!.val {
+                currentNode!.next = currentNode!.next!.next
+            } else {
+                currentNode = currentNode!.next
+            }
+        }
 
+        return head
+    }
