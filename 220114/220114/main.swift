@@ -48,7 +48,7 @@ if convertToInches2(fromMeter: 0.4) == 15.748{
 }
 
 //Additional Mission
-if Converter.convertUnit(inputUnit: "18cm inch") == "7.086614inch" {
+if Converter.convertToInch(inputUnit: "18cm inch") == "7.086614inch" {
     print("convertUnit test is success")
 }else {
     print("convertUnit test is fail")
