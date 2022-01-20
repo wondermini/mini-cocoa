@@ -26,3 +26,9 @@ if getRow(1) == [1,1] {
 }else {
     print("getRow test is fail")
 }
+
+var myUnitConverter = UnitConverter()
+myUnitConverter.cmInchTOInch(value: "18cm inch")
+myUnitConverter.inchMToCm(value: "25.4inch m")
+myUnitConverter.mToInch(value: "0.5m inch")
+
