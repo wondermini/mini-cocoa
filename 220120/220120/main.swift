@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let converter = UnitConverter()
+
+print(converter.converter(value: "18cm inch"))
 
