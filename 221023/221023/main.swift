@@ -33,7 +33,12 @@ pointA.myY = 15.8
 
 pointA.printPoint()
 
-var pointB = MyPiont(myX: 3.0, myY: 5.5)
+pointA.setX(x: 15.2)
+pointA.setY(y: 7.4)
 
 print("pointA=(\(pointA.myX),\(pointA.myY))")
+
+ 
+var pointB = MyPiont(myX: 15.0, myY: 12.2)
+print(pointA.getDistanceTo(toPoint: pointB))
 

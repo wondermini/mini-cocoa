@@ -21,4 +21,10 @@ struct MyPiont {
     mutating func setY(y: Float) {
         myY = y
     }
+    
+   
+    func getDistanceTo(toPoint: MyPiont) -> Float{
+        let value = sqrt(pow(myX-toPoint.myX, 2) + pow(myY-toPoint.myY, 2))
+        return value
+    }
 }
