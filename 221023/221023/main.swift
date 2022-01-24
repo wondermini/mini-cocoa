@@ -26,3 +26,14 @@ myFloatRec.rightBottomY = 3.5
 
 myFloatRec.printRect()
 myFloatRec.printCenter()
+
+var pointA = MyPiont()
+pointA.myX = 2.5
+pointA.myY = 15.8
+
+pointA.printPoint()
+
+var pointB = MyPiont(myX: 3.0, myY: 5.5)
+
+print("pointA=(\(pointA.myX),\(pointA.myY))")
+
