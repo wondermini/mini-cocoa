@@ -16,3 +16,13 @@ myRectangle.rightBottomX = 15
 myRectangle.rightBottomY = 4
 
 myRectangle.printRect()
+myRectangle.printArea()
+
+var myFloatRec = FloatRectangle()
+myFloatRec.leftTopX = 4.5
+myFloatRec.leftTopY = 10.5
+myFloatRec.rightBottomX = 15
+myFloatRec.rightBottomY = 3.5
+
+myFloatRec.printRect()
+myFloatRec.printCenter()
