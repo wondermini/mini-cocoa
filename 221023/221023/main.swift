@@ -42,3 +42,7 @@ print("pointA=(\(pointA.myX),\(pointA.myY))")
 var pointB = MyPiont(myX: 15.0, myY: 12.2)
 print(pointA.getDistanceTo(toPoint: pointB))
 
+
+var myReRectangle = ReRectangle()
+myReRectangle.printRect()
+myReRectangle.printArea()

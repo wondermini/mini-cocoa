@@ -11,6 +11,7 @@
 		4FAEAB70279D8B3900DCB778 /* rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAB6F279D8B3900DCB778 /* rectangle.swift */; };
 		4FAEAB72279E20C600DCB778 /* Float Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAB71279E20C600DCB778 /* Float Rectangle.swift */; };
 		4FAEAB74279E25D500DCB778 /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAB73279E25D500DCB778 /* MyPoint.swift */; };
+		4FAEAB76279E949800DCB778 /* reRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAB75279E949800DCB778 /* reRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4FAEAB6F279D8B3900DCB778 /* rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rectangle.swift; sourceTree = "<group>"; };
 		4FAEAB71279E20C600DCB778 /* Float Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float Rectangle.swift"; sourceTree = "<group>"; };
 		4FAEAB73279E25D500DCB778 /* MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoint.swift; sourceTree = "<group>"; };
+		4FAEAB75279E949800DCB778 /* reRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				4FAEAB71279E20C600DCB778 /* Float Rectangle.swift */,
 				4FAEAB73279E25D500DCB778 /* MyPoint.swift */,
 				4FAEAB6F279D8B3900DCB778 /* rectangle.swift */,
+				4FAEAB75279E949800DCB778 /* reRectangle.swift */,
 				4FAEAB67279D8B0600DCB778 /* 221023 */,
 				4FAEAB66279D8B0600DCB778 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAEAB74279E25D500DCB778 /* MyPoint.swift in Sources */,
+				4FAEAB76279E949800DCB778 /* reRectangle.swift in Sources */,
 				4FAEAB69279D8B0600DCB778 /* main.swift in Sources */,
 				4FAEAB70279D8B3900DCB778 /* rectangle.swift in Sources */,
 				4FAEAB72279E20C600DCB778 /* Float Rectangle.swift in Sources */,
