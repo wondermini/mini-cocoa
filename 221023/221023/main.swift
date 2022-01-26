@@ -49,3 +49,7 @@ print(pointA.getDistanceTo(toPoint: pointB))
 
 var rectB = ReRectangle(startPoint: MyPiont(myX: 5, myY: 5), width: 5.0, height: 10.0)
 rectB.printRect()
+
+var rectC = Rectangle(leftTopX: 4.5, leftTopY: 10.5, rightBottomX: 15, rightBottomY: 3.5)
+
+rectC.moveTo(delta: MyPiont(myX: -3.0, myY: 1.5))

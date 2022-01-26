@@ -8,15 +8,21 @@
 import Foundation
 
 struct Rectangle {
-    var leftTopX = Int()
-    var leftTopY = Int()
-    var rightBottomX = Int()
-    var rightBottomY = Int()
+    var leftTopX = Float()
+    var leftTopY = Float()
+    var rightBottomX = Float()
+    var rightBottomY = Float()
     func printRect(){
         print("LeftTop:(\(leftTopX),\(leftTopY)) RightTop:(\(rightBottomX),\(leftTopY)) LeftBottom:(\(leftTopX),\(rightBottomY)) RightBottom:(\(rightBottomX),\(rightBottomY))")
     }
     func printArea(){
         print("Area:\((leftTopY - rightBottomY)*(rightBottomX - leftTopX))")
+    }
+    mutating func moveTo(delta: MyPiont){
+        leftTopX += delta.myX
+        leftTopY += delta.myY
+        rightBottomX += delta.myX
+        rightBottomY += delta.myY
     }
 }
 
