@@ -9,6 +9,10 @@ import Foundation
 
 
 struct ReRectangle {
+    init (startPoint: MyPiont, width: Float, height: Float) {
+        self.leftTopPoint = startPoint
+        self.rightBottomPoint = MyPiont(myX: self.leftTopPoint.myX+width, myY: self.leftTopPoint.myY - height)
+    }
     var leftTopPoint = MyPiont(myX: 0, myY: 0)
     var rightBottomPoint = MyPiont(myX: 0, myY: 0)
     func printRect(){
