@@ -12,3 +12,5 @@ print("Hello, World!")
 gugu(dan: 3)
 
 makeAll()
+
+makeGugu(maxDan: 2)
