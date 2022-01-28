@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4FAEAB9B27A3BE2500DCB778 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAB9A27A3BE2500DCB778 /* main.swift */; };
 		4FAEABA227A3BE3300DCB778 /* gugu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEABA127A3BE3300DCB778 /* gugu.swift */; };
+		4FAEABA427A3C03D00DCB778 /* makeAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEABA327A3C03D00DCB778 /* makeAll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4FAEAB9727A3BE2500DCB778 /* 220128 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 220128; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAEAB9A27A3BE2500DCB778 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FAEABA127A3BE3300DCB778 /* gugu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = gugu.swift; path = ../gugu.swift; sourceTree = "<group>"; };
+		4FAEABA327A3C03D00DCB778 /* makeAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeAll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				4FAEABA127A3BE3300DCB778 /* gugu.swift */,
+				4FAEABA327A3C03D00DCB778 /* makeAll.swift */,
 				4FAEAB9927A3BE2500DCB778 /* 220128 */,
 				4FAEAB9827A3BE2500DCB778 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				4FAEAB9B27A3BE2500DCB778 /* main.swift in Sources */,
 				4FAEABA227A3BE3300DCB778 /* gugu.swift in Sources */,
+				4FAEABA427A3C03D00DCB778 /* makeAll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

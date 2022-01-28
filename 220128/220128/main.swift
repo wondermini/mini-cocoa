@@ -10,3 +10,5 @@ import Foundation
 print("Hello, World!")
 
 gugu(dan: 3)
+
+makeAll()
