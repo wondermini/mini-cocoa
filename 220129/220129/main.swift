@@ -8,4 +8,5 @@
 import Foundation
 
 printXY(max: 3)
-
+print()
+printXY(max: 5)
