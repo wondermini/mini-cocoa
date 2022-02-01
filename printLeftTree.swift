@@ -10,7 +10,7 @@ import Foundation
 
 func printLeftTree(lines: Int){
     for i in 0..<lines{
-        for j in 0...i{
+        for _ in 0...i{
             print("🍎", terminator: " ")
         }
         print("")
