@@ -8,7 +8,7 @@
 import Foundation
 
 func printRightTree(lines: Int) {
-    for i in 0...lines {
+    for i in 1...lines {
         for j in 0..<lines {
             if i + j >= lines {
                 print("🍎", terminator: " ")
