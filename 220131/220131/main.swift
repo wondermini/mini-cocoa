@@ -7,9 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+
 
 printLeftTree(lines: 5)
 print()
 printRightTree(lines: 4)
-
+print()
+printCenterTree(lines: 5)
