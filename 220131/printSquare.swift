@@ -11,10 +11,11 @@ func printSquare(lines: Int){
     var num = 1
     for _ in 1...lines{
         for _ in 1...lines{
-            print(num, terminator: " ")
             if num < 10{
                 print(" ", terminator: "")
             }
+            print(num, terminator: " ")
+            
             num += 1
         }
         print("")
