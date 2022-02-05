@@ -24,11 +24,11 @@ func printReverse(lines: Int) {
     for rowIndex in 0..<lines {
         if rowIndex % 2 == 0 {
             for columnIndex in 0..<lines {
-                print(squareArray[rowIndex][columnIndex], terminator: " ")
+                print(String(squareArray[rowIndex][columnIndex]).padding(toLength: 2, withPad: " ", startingAt: 0), terminator: " ")
             }
         } else {
             for columnIndex in 0..<lines {
-                print(squareArray[rowIndex].reversed()[columnIndex], terminator: " ")
+                print(String(squareArray[rowIndex].reversed()[columnIndex]).padding(toLength: 2, withPad: " ", startingAt: 0), terminator: " ")
             }
         }
         print()
