@@ -28,3 +28,6 @@ print()
 printDiamond(lines: 7)
 print()
 print(print3515(lines: 15))
+print()
+print(rePrintXY(max: 3))
+
