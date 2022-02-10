@@ -30,4 +30,5 @@ print()
 print(print3515(lines: 15))
 print()
 print(rePrintXY(max: 3))
-
+print()
+print(rePrintLeftTree(lines: 5))

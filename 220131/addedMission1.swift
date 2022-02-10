@@ -15,5 +15,5 @@ func rePrintXY(max: Int) -> [[String]] {
             result[result.endIndex-1].append(String(i))
         }
     }
-    return (result)
+    return result
 }
