@@ -7,13 +7,21 @@
 
 import Foundation
 
-func rePrintLeftTree(lines: Int) {
+func rePrintLeftTree(lines: Int)-> [[String]]  {
     var result = [[String]]()
     for i in 1...lines {
         result.append([String]())
-        for j in 1...i {
-           
+        for _ in 1...i {
+            result[result.endIndex-1].append(String("🎈"))
         }
     }
     return result
+}
+func printLeftTree(arrs: [[String]]) {
+    for row in arrs {
+        for value in row {
+            print(value, terminator: " ")
+        }
+        print()
+    }
 }

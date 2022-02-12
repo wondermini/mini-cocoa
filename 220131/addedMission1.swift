@@ -17,3 +17,11 @@ func rePrintXY(max: Int) -> [[String]] {
     }
     return result
 }
+func printXY(arr: [[String]]) {
+    for row in arr {
+        for value in row {
+            print(value, terminator: " ")
+        }
+        print()
+    }
+}
