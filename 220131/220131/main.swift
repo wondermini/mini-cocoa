@@ -35,3 +35,6 @@ print()
 printLeftTree(arrs: rePrintLeftTree(lines: 5))
 print()
 printRightTree(arrs: rePrintRightTree(lines: 4))
+print()
+rePrintCenterTree(arrs: reCenterTree(lines: 5))
+
