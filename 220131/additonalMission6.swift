@@ -13,11 +13,12 @@ func square(lines:Int) -> [[String]]{
     for _ in 1...lines{
         result.append([String]())
         for _ in 1...lines{
-            result[result.endIndex-1].append(String(num))
-            num += 1
-            if num <= 10{
+            if num < 10{
                 result[result.endIndex-1].append(String(""))
             }
+            result[result.endIndex-1].append(String(num))
+            num += 1
+            
         }
     }
     return result
