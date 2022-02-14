@@ -37,4 +37,5 @@ print()
 printRightTree(arrs: rePrintRightTree(lines: 4))
 print()
 rePrintCenterTree(arrs: reCenterTree(lines: 5))
-
+print()
+rePrintNumbers(arrs: reNumbers(lines: 5))

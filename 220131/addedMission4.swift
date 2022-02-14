@@ -7,20 +7,21 @@
 
 import Foundation
 
-func reCenterTree(lines: Int) -> [[String]]{
+func reCenterTree(lines: Int) -> [[String]] {
     var result = [[String]]()
-    for i in 1...lines{
+    for i in 1 ... lines {
         result.append([String]())
-        for j in 0..<lines{
-            if i+j >= lines{
+        for j in 0 ..< lines {
+            if i + j >= lines {
                 result[result.endIndex-1].append(String("🎈"))
-            }else{
-                    result[result.endIndex-1].append(String(""))
-                }
+            } else {
+                result[result.endIndex-1].append(String(""))
             }
         }
-    return result
     }
+    return result
+}
+
 func rePrintCenterTree(arrs: [[String]]) {
     for row in arrs {
         for value in row {
@@ -29,5 +30,3 @@ func rePrintCenterTree(arrs: [[String]]) {
         print()
     }
 }
-
-
