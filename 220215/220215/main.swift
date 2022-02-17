@@ -9,3 +9,5 @@ import Foundation
 
 print("Hello, World!")
 
+var myLadderGame = LadderGame()
+myLadderGame.startGame()
