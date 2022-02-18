@@ -8,3 +8,5 @@
 import Foundation
 
 plus(A: 1, B: 2)
+
+divide(A: 1, B: 3)
