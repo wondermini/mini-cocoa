@@ -10,3 +10,7 @@ import Foundation
 plus(A: 1, B: 2)
 
 divide(A: 1, B: 3)
+
+divide(A: 4, B: 5) 
+
+printStar(lines: 5)

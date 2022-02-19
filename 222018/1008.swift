@@ -7,7 +7,7 @@
 
 import Foundation
 
-func divide(A: Decimal, B: Decimal) {
+func divide(A: Double, B: Double) {
     let divide = A/B
     let numberFormater = NumberFormatter()
     numberFormater.maximumFractionDigits = 9
