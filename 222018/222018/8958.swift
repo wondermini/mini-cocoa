@@ -7,12 +7,17 @@
 
 import Foundation
 
-func testPointCounter(testCase: String){
+func testPointCounter(testCase: String) -> Int {
     var pointCounter = 0
-    let testCaseArr = testCase.compactMap{$0.wholeNumberValue}
-    for cell in testCase{
-        if cell == "O"{
-            pointCounter += 1
+    var accuCounter = 0
+    let testCaseArr = Array(testCase)
+    for cell in testCaseArr {
+        if cell == "O" {
+            accuCounter += 1
+            pointCounter += accuCounter
+        } else {
+            accuCounter = 0
         }
     }
+    return pointCounter
 }
