@@ -26,3 +26,27 @@ if testPointCounter(testCase: "OOXXOXXOOO") == 10 {
 }else{
     print("testPointCounter is fail")
 }
+
+if testPointCounter(testCase: "OOXXOOXXOO") == 9 {
+    print("testPointCounter is success")
+}else{
+    print("testPointCounter is fail")
+}
+
+if testPointCounter(testCase: "OXOXOXOXOXOXOX") == 7 {
+    print("testPointCounter is success")
+}else{
+    print("testPointCounter is fail")
+}
+
+if testPointCounter(testCase: "OOOOOOOOOO") == 55 {
+    print("testPointCounter is success")
+}else{
+    print("testPointCounter is fail")
+}
+
+if testPointCounter(testCase: "OOOOXOOOOXOOOOX") == 30 {
+    print("testPointCounter is success")
+}else{
+    print("testPointCounter is fail")
+}
