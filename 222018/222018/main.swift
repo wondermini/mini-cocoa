@@ -50,3 +50,6 @@ if testPointCounter(testCase: "OOOOXOOOOXOOOOX") == 30 {
 }else{
     print("testPointCounter is fail")
 }
+
+print(Character(readLine()!).asciiValue!)
+
