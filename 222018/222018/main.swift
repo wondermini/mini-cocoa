@@ -51,5 +51,9 @@ if testPointCounter(testCase: "OOOOXOOOOXOOOOX") == 30 {
     print("testPointCounter is fail")
 }
 
-print(Character(readLine()!).asciiValue!)
-
+printAsciiValue(input: "A")
+printAsciiValue(input: "C")
+printAsciiValue(input: "0")
+printAsciiValue(input: "9")
+printAsciiValue(input: "9")
+printAsciiValue(input: "z")
