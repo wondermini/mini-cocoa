@@ -62,3 +62,7 @@ reCheckingProgram(eightNums: "10 11 12 13 14 15 16 17")
 reCheckingProgram(eightNums: "8 7 6 5 4 3 2 1")
 reCheckingProgram(eightNums: "1 2 3 4 5 6 7 8")
 reCheckingProgram(eightNums: "99 100 101 102 103 104 105 106")
+
+var myArray = ArrayPractice()
+myArray.printArray(array: myArray.fillArray(line: 5))
+
