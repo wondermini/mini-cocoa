@@ -8,8 +8,9 @@
 import Foundation
 
 func checkingProgram(eightNums: String){
-    let TrimWhiteSpace = eightNums.trimmingCharacters(in: .whitespaces)
+    //let TrimWhiteSpace = eightNums.trimmingCharacters(in: .whitespaces)
     let numsArr = eightNums.compactMap{$0.wholeNumberValue}
+    //let numsArr = Array(TrimWhiteSpace)
     if numsArr == [1,2,3,4,5,6,7,8]{
         print("ascending")
     }else if numsArr == [8,7,6,5,4,3,2,1]{
