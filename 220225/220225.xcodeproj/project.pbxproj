@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F676B7127C8B84A000E978C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7027C8B84A000E978C /* main.swift */; };
 		4F676B7827C8B882000E978C /* arrayPractice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7727C8B882000E978C /* arrayPractice2.swift */; };
+		4F676B7A27C8D01E000E978C /* ArrayPractice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7927C8D01E000E978C /* ArrayPractice1.swift */; };
+		4F676B7D27CA6692000E978C /* MagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7C27CA6692000E978C /* MagicSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		4F676B6D27C8B84A000E978C /* 220225 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 220225; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F676B7027C8B84A000E978C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4F676B7727C8B882000E978C /* arrayPractice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = arrayPractice2.swift; path = ../arrayPractice2.swift; sourceTree = "<group>"; };
+		4F676B7927C8D01E000E978C /* ArrayPractice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPractice1.swift; sourceTree = "<group>"; };
+		4F676B7C27CA6692000E978C /* MagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,9 @@
 		4F676B6427C8B84A000E978C = {
 			isa = PBXGroup;
 			children = (
+				4F676B7C27CA6692000E978C /* MagicSquare.swift */,
 				4F676B7727C8B882000E978C /* arrayPractice2.swift */,
+				4F676B7927C8D01E000E978C /* ArrayPractice1.swift */,
 				4F676B6F27C8B84A000E978C /* 220225 */,
 				4F676B6E27C8B84A000E978C /* Products */,
 			);
@@ -123,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F676B7A27C8D01E000E978C /* ArrayPractice1.swift in Sources */,
 				4F676B7127C8B84A000E978C /* main.swift in Sources */,
+				4F676B7D27CA6692000E978C /* MagicSquare.swift in Sources */,
 				4F676B7827C8B882000E978C /* arrayPractice2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
