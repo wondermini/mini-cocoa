@@ -9,3 +9,6 @@ import Foundation
 
 var myArrayPractice = ArrayPractice()
 myArrayPractice.printArray(arrs: myArrayPractice.fillArray(lines: 7))
+
+var myMagicSquare = MagicSquare()
+myMagicSquare.printMagicSquare(array: myMagicSquare.makeMagicSquare(row: 3))
