@@ -10,10 +10,17 @@ import Foundation
 
 struct IDValidator{
     
-    func IDValidator(password: String) -> Bool{
-        let characterSet = password.compactMap{Character(String($0))}
-       if characterSet.count < 5 || characterSet.count > 24{
+    func validate(inputId: String) -> Bool{
+        
+        if !lengthValidate(inputId: inputId) {
             return false
-       }else if characterSet.
+        }
+        
+        
+       
+    }
+    
+    func lengthValidate(inputId: String) -> Bool {
+        return inputId.count >= 5 && inputId.count <= 24
     }
 }

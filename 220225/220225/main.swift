@@ -12,3 +12,6 @@ myArrayPractice.printArray(arrs: myArrayPractice.fillArray(lines: 7))
 
 var myMagicSquare = MagicSquare()
 myMagicSquare.printMagicSquare(array: myMagicSquare.makeMagicSquare(row: 3))
+
+
+print("abcd".count)
