@@ -15,6 +15,12 @@ struct IDValidator{
         if !lengthValidate(inputId: inputId) {
             return false
         }
+        if !repeatNumValidate(inputId: inputId){
+            return false
+        }
+    //        if !combinationValidate(inputId: inputId){
+    //            return false
+    //        }
         return true
     }
     
@@ -27,10 +33,12 @@ struct IDValidator{
     
     func repeatNumValidate(inputId: String) -> Bool {
         let tmpArr = Array(inputId)
-        var repeatCounter = 0
+        var repeatCounter = 1
         for i in 1 ..< tmpArr.count {
             if tmpArr[i] == tmpArr[i-1] {
                 repeatCounter += 1
+            } else {
+                repeatCounter = 1
             }
             if repeatCounter == 3 {
                 return false
@@ -38,4 +46,31 @@ struct IDValidator{
         }
         return true
     }
+    
+    func combinationValidate(inputId: String) -> Bool {
+        let dash = CharacterSet(charactersIn: "-")
+        let allCharacterSet = dash.union(CharacterSet.decimalDigits).union(CharacterSet.letters)
+        let tmpSet = CharacterSet(charactersIn: inputId)
+        if tmpSet.isSubset(of: allCharacterSet){
+            return true
+        }
+        return false
+    }
+    
+//    func continuousNumValidate(inputId: String) -> Bool {
+//        let tmpArr = Array(inputId)
+//        let numsSet = CharacterSet.decimalDigits
+//        var contionuousNumCounter = 0
+//        for index in 0 ..< tmpArr.count {
+//            if numsSet.isSuperset(of: tmpArr[index])){
+//                if tmpArr[index]+1 == tmpArr[index+1] {
+//                    contionuousNumCounter += 1
+//                }
+//                if contionuousNumCounter == 3{
+//                    return false
+//                }
+//            }
+//        }
+//        return false
+//    }
 }
