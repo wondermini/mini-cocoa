@@ -50,9 +50,9 @@
 			isa = PBXGroup;
 			children = (
 				4F676B7C27CA6692000E978C /* MagicSquare.swift */,
-				4F676B7E27CBBE93000E978C /* IDValidator.swift */,
 				4F676B7727C8B882000E978C /* arrayPractice2.swift */,
 				4F676B7927C8D01E000E978C /* ArrayPractice1.swift */,
+				4F676B7E27CBBE93000E978C /* IDValidator.swift */,
 				4F676B6F27C8B84A000E978C /* 220225 */,
 				4F676B6E27C8B84A000E978C /* Products */,
 			);

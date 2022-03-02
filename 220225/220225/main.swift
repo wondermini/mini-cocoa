@@ -23,4 +23,8 @@ if myIdValidator.repeatNumValidate(inputId: "111479A") == false{
     print("myIdValidator test is fail")
 }
 
-
+if myIdValidator.combinationValidate(inputId: "123759T") == false{
+    print("myIdValidator test is success")
+}else{
+    print("myIdValidator test is fail")
+}

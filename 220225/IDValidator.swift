@@ -57,20 +57,22 @@ struct IDValidator{
         return false
     }
     
-//    func continuousNumValidate(inputId: String) -> Bool {
-//        let tmpArr = Array(inputId)
-//        let numsSet = CharacterSet.decimalDigits
-//        var contionuousNumCounter = 0
-//        for index in 0 ..< tmpArr.count {
-//            if numsSet.isSuperset(of: tmpArr[index])){
-//                if tmpArr[index]+1 == tmpArr[index+1] {
-//                    contionuousNumCounter += 1
-//                }
-//                if contionuousNumCounter == 3{
-//                    return false
-//                }
-//            }
-//        }
-//        return false
-//    }
+    func continuousNumValidate(inputId: String) -> Bool {
+        let tmpArr = Array(inputId)
+        var contionuousNumCounter = 1
+        for index in 0 ..< tmpArr.count-1 {
+            //숫자인지 판별
+            if tmpArr[index].isNumber {
+                if Int(String(tmpArr[index]))!+1 == Int(String(tmpArr[index+1]))! {
+                    contionuousNumCounter += 1
+                }else{
+                    contionuousNumCounter = 1
+                }
+                if contionuousNumCounter == 3{
+                    return false
+                }
+            }
+        }
+        return false
+    }
 }
