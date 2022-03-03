@@ -40,3 +40,35 @@ if myIdValidator.validate(inputId: "ABDkl15-1#") == false{
 }else{
     print("myIdValidator.validate test is fail")
 }
+
+
+var myPasswordValidator = PasswordValidator()
+if myPasswordValidator.passwordValidate(password: "13456") == 1 {
+    print("myPasswordValidator.passwordValidate test is success")
+}else{
+    print("myPasswordValidator.passwordValidate test is fail")
+}
+
+if myPasswordValidator.passwordValidate(password: "ABcJK") == 2 {
+    print("myPasswordValidator.passwordValidate test is success")
+}else{
+    print("myPasswordValidator.passwordValidate test is fail")
+}
+
+if myPasswordValidator.passwordValidate(password: "ASDD284690") == 4 {
+    print("myPasswordValidator.passwordValidate test is success")
+}else{
+    print("myPasswordValidator.passwordValidate test is fail")
+}
+
+if myPasswordValidator.passwordValidate(password: "#SJKL789000-") == 5 {
+    print("myPasswordValidator.passwordValidate test is success")
+}else{
+    print("myPasswordValidator.passwordValidate test is fail")
+}
+
+if myPasswordValidator.passwordValidate(password: "#123456789") == 3 {
+    print("myPasswordValidator.passwordValidate test is success")
+}else{
+    print("myPasswordValidator.passwordValidate test is fail")
+}
