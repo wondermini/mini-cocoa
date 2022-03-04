@@ -44,31 +44,31 @@ if myIdValidator.validate(inputId: "ABDkl15-1#") == false{
 
 var myPasswordValidator = PasswordValidator()
 if myPasswordValidator.passwordValidate(password: "13456") == 1 {
-    print("myPasswordValidator.passwordValidate test is success")
+    print("myPasswordValidator.passwordValidate.1 test is success")
 }else{
-    print("myPasswordValidator.passwordValidate test is fail")
+    print("myPasswordValidator.passwordValidate.1 test is fail")
 }
 
 if myPasswordValidator.passwordValidate(password: "ABcJK") == 2 {
-    print("myPasswordValidator.passwordValidate test is success")
+    print("myPasswordValidator.passwordValidate.2 test is success")
 }else{
-    print("myPasswordValidator.passwordValidate test is fail")
+    print("myPasswordValidator.passwordValidate.2 test is fail")
 }
 
 if myPasswordValidator.passwordValidate(password: "ASDD284690") == 4 {
-    print("myPasswordValidator.passwordValidate test is success")
+    print("myPasswordValidator.passwordValidate.4 test is success")
 }else{
-    print("myPasswordValidator.passwordValidate test is fail")
+    print("myPasswordValidator.passwordValidate.4 test is fail")
 }
 
-if myPasswordValidator.passwordValidate(password: "#SJKL789000-") == 5 {
-    print("myPasswordValidator.passwordValidate test is success")
+if myPasswordValidator.passwordValidate(password: "#SJKL7jjjj4") == 5 {
+    print("myPasswordValidator.passwordValidate.5 test is success")
 }else{
-    print("myPasswordValidator.passwordValidate test is fail")
+    print("myPasswordValidator.passwordValidate.5 test is fail")
 }
 
-if myPasswordValidator.passwordValidate(password: "#123456789") == 3 {
-    print("myPasswordValidator.passwordValidate test is success")
+if myPasswordValidator.passwordValidate(password: "123456789") == 3 {
+    print("myPasswordValidator.passwordValidate.3 test is success")
 }else{
-    print("myPasswordValidator.passwordValidate test is fail")
+    print("myPasswordValidator.passwordValidate.3 test is fail")
 }
