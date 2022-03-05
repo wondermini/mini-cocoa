@@ -61,7 +61,7 @@ if myPasswordValidator.passwordValidate(password: "ASDD284690") == 4 {
     print("myPasswordValidator.passwordValidate.4 test is fail")
 }
 
-if myPasswordValidator.passwordValidate(password: "#SJKL7jjjj4") == 5 {
+if myPasswordValidator.passwordValidate(password: "-SJKL7jjjj4") == 5 {
     print("myPasswordValidator.passwordValidate.5 test is success")
 }else{
     print("myPasswordValidator.passwordValidate.5 test is fail")
