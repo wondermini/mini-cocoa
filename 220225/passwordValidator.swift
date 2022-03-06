@@ -33,10 +33,10 @@ struct PasswordValidator {
     }
     
     func level5check(password: String) -> Bool {
-        
+        let specialSymbol = CharacterSet.init(charactersIn: "!@#$%^&*()_-+")
         if password.filter({$0.isNumber}).count >= 1 {
             if password.filter({$0.isLetter}).count >= 1 {
-                if password.filter({$0.isSymbol}).count >= 1 {
+                if (password.rangeOfCharacter(from: specialSymbol) != nil){
                     if password.count >= 8 {
                         return true
                     }
