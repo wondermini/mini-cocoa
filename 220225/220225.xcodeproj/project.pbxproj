@@ -13,6 +13,7 @@
 		4F676B7D27CA6692000E978C /* MagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7C27CA6692000E978C /* MagicSquare.swift */; };
 		4F676B7F27CBBE93000E978C /* IDValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B7E27CBBE93000E978C /* IDValidator.swift */; };
 		4F676B8127CFC37E000E978C /* passwordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B8027CFC37E000E978C /* passwordValidator.swift */; };
+		4F676B8327D5E70F000E978C /* socialSecurityNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F676B8227D5E70F000E978C /* socialSecurityNum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		4F676B7C27CA6692000E978C /* MagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSquare.swift; sourceTree = "<group>"; };
 		4F676B7E27CBBE93000E978C /* IDValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDValidator.swift; sourceTree = "<group>"; };
 		4F676B8027CFC37E000E978C /* passwordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordValidator.swift; sourceTree = "<group>"; };
+		4F676B8227D5E70F000E978C /* socialSecurityNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialSecurityNum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4F676B6427C8B84A000E978C = {
 			isa = PBXGroup;
 			children = (
+				4F676B8227D5E70F000E978C /* socialSecurityNum.swift */,
 				4F676B7C27CA6692000E978C /* MagicSquare.swift */,
 				4F676B7727C8B882000E978C /* arrayPractice2.swift */,
 				4F676B7927C8D01E000E978C /* ArrayPractice1.swift */,
@@ -138,6 +141,7 @@
 				4F676B7A27C8D01E000E978C /* ArrayPractice1.swift in Sources */,
 				4F676B7127C8B84A000E978C /* main.swift in Sources */,
 				4F676B7D27CA6692000E978C /* MagicSquare.swift in Sources */,
+				4F676B8327D5E70F000E978C /* socialSecurityNum.swift in Sources */,
 				4F676B7F27CBBE93000E978C /* IDValidator.swift in Sources */,
 				4F676B7827C8B882000E978C /* arrayPractice2.swift in Sources */,
 				4F676B8127CFC37E000E978C /* passwordValidator.swift in Sources */,
