@@ -15,13 +15,28 @@ struct ValidatorSocialSecurityNum{
         if rear.count < 7 {
             return false
         }
-        var n = 0
-        let forntArr = Array(arrayLiteral: Int(front))
-        let rearArr = Array(arrayLiteral: Int(rear))
-        for i in forntArr{
+        var n = Int()
+        var k = Int()
+        let nums = [8,9,2,3,4,5]
+//        let forntArr = Array(front)
+//        let rearArr = Array(rear)
+        let frontArr = front.compactMap{$0.wholeNumberValue}
+        let rearArr = rear.compactMap{$0.wholeNumberValue}
+        for i in frontArr{
             for j in 2...7{
                n += (i*j)
             }
+        }
+        for k in rearArr{
+            for g in nums{
+                n += (k*g)
+            }
+        }
+        k += (11-(n%11))%10
+        if k == rearArr[6]{
+            return true
+        }else{
+            return false
         }
         
     }
