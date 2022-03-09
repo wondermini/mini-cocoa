@@ -74,7 +74,7 @@ if myPasswordValidator.passwordValidate(password: "123456789") == 3 {
 }
 
 var myValidatorSocialSecurityNum = ValidatorSocialSecurityNum()
-if myValidatorSocialSecurityNum.validateSocialSecurityNum(front: "81112_", rear: "2068411") == true{
+if myValidatorSocialSecurityNum.validateSocialSecurityNum(front: "------", rear: "-------") == true{
     print("myValidatorSocialSecurityNum test is success")
 }else{
     print("myValidatorSocialSecurityNum test is fail")
