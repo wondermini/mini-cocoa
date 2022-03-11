@@ -74,8 +74,15 @@ if myPasswordValidator.passwordValidate(password: "123456789") == 3 {
 }
 
 var myValidatorSocialSecurityNum = ValidatorSocialSecurityNum()
-if myValidatorSocialSecurityNum.validateSocialSecurityNum(front: "------", rear: "-------") == true{
+if myValidatorSocialSecurityNum.validateSocialSecurityNum(front: "123456", rear: "1234567") == true{
     print("myValidatorSocialSecurityNum test is success")
 }else{
     print("myValidatorSocialSecurityNum test is fail")
+}
+
+var myAntpuzzle = AntPuzzle()
+if myAntpuzzle.antFunction(inputArray: [1]) == [1,1,2,1] {
+    print(" myAntpuzzle.antFunction test is success")
+}else{
+    print(" myAntpuzzle.antFunction test is fail")
 }

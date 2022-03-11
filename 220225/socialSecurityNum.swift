@@ -33,7 +33,7 @@ struct ValidatorSocialSecurityNum{
             }
         }
         k += (11-(n%11))%10
-        if k == rearArr[7]{
+        if k == rearArr[6]{
             return true
         }else{
             return false
