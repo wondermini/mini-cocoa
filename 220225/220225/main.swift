@@ -80,9 +80,10 @@ if myValidatorSocialSecurityNum.validateSocialSecurityNum(front: "123456", rear:
     print("myValidatorSocialSecurityNum test is fail")
 }
 
-var myAntpuzzle = AntPuzzle()
-if myAntpuzzle.antFunction(inputArray: [1]) == [1,1,2,1] {
-    print(" myAntpuzzle.antFunction test is success")
-}else{
-    print(" myAntpuzzle.antFunction test is fail")
+
+var seq = [1]
+ 
+for i in 0..<10 {
+  print("Seq \(i): \(seq)")
+  seq = lookAndSay(seq)
 }
