@@ -23,5 +23,4 @@ struct ArrayPracticeOne{
         }
        return result
     }
-    
 }
