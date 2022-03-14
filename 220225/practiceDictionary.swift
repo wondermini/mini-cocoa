@@ -31,11 +31,13 @@ func duplicateWords(inputWords: [String]) -> [String]{
     var result = [String]()
     var counts : [String:Int] = [:]
     inputWords.forEach { counts[$0, default: 0] += 1 }
+   
     for (key, value) in counts {
         if value >= 2{
             result.append(key)
         }
     }
+    print(counts)
     print(result)
     return result
 }
