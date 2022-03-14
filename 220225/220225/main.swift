@@ -87,3 +87,16 @@ for i in 0..<10 {
   print("Seq \(i): \(seq)")
   seq = lookAndSay(seq)
 }
+
+var myPracticeDictionary = practiceDictionary()
+if myPracticeDictionary.duplicateWords(inputWords: ["가을","우주","너굴","우주","겨울","봄봄","너굴","너굴"]) == ["우주","너굴"]{
+    print("myPracticeDictionary.duplicateWords test is success")
+}else{
+    print("myPracticeDictionary.duplicateWords test is fail")
+}
+
+if myPracticeDictionary.duplicateWords(inputWords: ["가을","너굴","우주","겨울","봄봄","여울"]) == []{
+    print("myPracticeDictionary.duplicateWords test is success")
+}else{
+    print("myPracticeDictionary.duplicateWords test is fail")
+}
