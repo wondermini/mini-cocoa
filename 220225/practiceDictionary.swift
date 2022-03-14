@@ -26,7 +26,7 @@ import Foundation
 //
 //}
 
-struct practiceDictionary{
+struct PracticeDictionary{
 func duplicateWords(inputWords: [String]) -> [String]{
     var result = [String]()
     var counts : [String:Int] = [:]
