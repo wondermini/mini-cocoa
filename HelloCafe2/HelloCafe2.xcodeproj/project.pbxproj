@@ -13,6 +13,8 @@
 		4FB2CAF727E2324200F58CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF527E2324200F58CE4 /* Main.storyboard */; };
 		4FB2CAF927E2324300F58CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF827E2324300F58CE4 /* Assets.xcassets */; };
 		4FB2CAFC27E2324300F58CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAFA27E2324300F58CE4 /* LaunchScreen.storyboard */; };
+		4FD682D127E2DA3300101C40 /* cafe-latte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FD682D027E2DA3300101C40 /* cafe-latte.jpg */; };
+		4FD682D327E2DADD00101C40 /* green-tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FD682D227E2DADD00101C40 /* green-tea.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4FB2CAF827E2324300F58CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB2CAFB27E2324300F58CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB2CAFD27E2324300F58CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD682D027E2DA3300101C40 /* cafe-latte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cafe-latte.jpg"; sourceTree = "<group>"; };
+		4FD682D227E2DADD00101C40 /* green-tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-tea.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4FB2CAF127E2324200F58CE4 /* SceneDelegate.swift */,
 				4FB2CAF327E2324200F58CE4 /* ViewController.swift */,
 				4FB2CAF527E2324200F58CE4 /* Main.storyboard */,
+				4FD682D227E2DADD00101C40 /* green-tea.jpg */,
+				4FD682D027E2DA3300101C40 /* cafe-latte.jpg */,
 				4FB2CAF827E2324300F58CE4 /* Assets.xcassets */,
 				4FB2CAFA27E2324300F58CE4 /* LaunchScreen.storyboard */,
 				4FB2CAFD27E2324300F58CE4 /* Info.plist */,
@@ -128,6 +134,8 @@
 				4FB2CAFC27E2324300F58CE4 /* LaunchScreen.storyboard in Resources */,
 				4FB2CAF927E2324300F58CE4 /* Assets.xcassets in Resources */,
 				4FB2CAF727E2324200F58CE4 /* Main.storyboard in Resources */,
+				4FD682D127E2DA3300101C40 /* cafe-latte.jpg in Resources */,
+				4FD682D327E2DADD00101C40 /* green-tea.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
