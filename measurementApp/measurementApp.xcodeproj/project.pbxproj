@@ -7,33 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FB2CAF027E2324200F58CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CAEF27E2324200F58CE4 /* AppDelegate.swift */; };
-		4FB2CAF227E2324200F58CE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF127E2324200F58CE4 /* SceneDelegate.swift */; };
-		4FB2CAF427E2324200F58CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF327E2324200F58CE4 /* ViewController.swift */; };
-		4FB2CAF727E2324200F58CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF527E2324200F58CE4 /* Main.storyboard */; };
-		4FB2CAF927E2324300F58CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAF827E2324300F58CE4 /* Assets.xcassets */; };
-		4FB2CAFC27E2324300F58CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CAFA27E2324300F58CE4 /* LaunchScreen.storyboard */; };
-		4FD682D127E2DA3300101C40 /* cafe-latte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FD682D027E2DA3300101C40 /* cafe-latte.jpg */; };
-		4FD682D327E2DADD00101C40 /* green-tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FD682D227E2DADD00101C40 /* green-tea.jpg */; };
-		4FD682D527E2EB3500101C40 /* measureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD682D427E2EB3500101C40 /* measureApp.swift */; };
+		4F60376827E4B5C00081B08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60376727E4B5C00081B08F /* AppDelegate.swift */; };
+		4F60376A27E4B5C00081B08F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60376927E4B5C00081B08F /* SceneDelegate.swift */; };
+		4F60376C27E4B5C00081B08F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60376B27E4B5C00081B08F /* ViewController.swift */; };
+		4F60376F27E4B5C00081B08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60376D27E4B5C00081B08F /* Main.storyboard */; };
+		4F60377127E4B5C10081B08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F60377027E4B5C10081B08F /* Assets.xcassets */; };
+		4F60377427E4B5C10081B08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60377227E4B5C10081B08F /* LaunchScreen.storyboard */; };
+		4F60377C27E4B5FF0081B08F /* measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60377B27E4B5FF0081B08F /* measurement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4FB2CAEC27E2324200F58CE4 /* HelloCafe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCafe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB2CAEF27E2324200F58CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FB2CAF127E2324200F58CE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FB2CAF327E2324200F58CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FB2CAF627E2324200F58CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FB2CAF827E2324300F58CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FB2CAFB27E2324300F58CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4FB2CAFD27E2324300F58CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FD682D027E2DA3300101C40 /* cafe-latte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cafe-latte.jpg"; sourceTree = "<group>"; };
-		4FD682D227E2DADD00101C40 /* green-tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-tea.jpg"; sourceTree = "<group>"; };
-		4FD682D427E2EB3500101C40 /* measureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = measureApp.swift; sourceTree = "<group>"; };
+		4F60376427E4B5C00081B08F /* measurementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = measurementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F60376727E4B5C00081B08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F60376927E4B5C00081B08F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F60376B27E4B5C00081B08F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F60376E27E4B5C00081B08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F60377027E4B5C10081B08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F60377327E4B5C10081B08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F60377527E4B5C10081B08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F60377B27E4B5FF0081B08F /* measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = measurement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FB2CAE927E2324200F58CE4 /* Frameworks */ = {
+		4F60376127E4B5C00081B08F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FB2CAE327E2324200F58CE4 = {
+		4F60375B27E4B5C00081B08F = {
 			isa = PBXGroup;
 			children = (
-				4FB2CAEE27E2324200F58CE4 /* HelloCafe2 */,
-				4FB2CAED27E2324200F58CE4 /* Products */,
+				4F60376627E4B5C00081B08F /* measurementApp */,
+				4F60376527E4B5C00081B08F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4FB2CAED27E2324200F58CE4 /* Products */ = {
+		4F60376527E4B5C00081B08F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FB2CAEC27E2324200F58CE4 /* HelloCafe2.app */,
+				4F60376427E4B5C00081B08F /* measurementApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FB2CAEE27E2324200F58CE4 /* HelloCafe2 */ = {
+		4F60376627E4B5C00081B08F /* measurementApp */ = {
 			isa = PBXGroup;
 			children = (
-				4FB2CAEF27E2324200F58CE4 /* AppDelegate.swift */,
-				4FB2CAF127E2324200F58CE4 /* SceneDelegate.swift */,
-				4FB2CAF327E2324200F58CE4 /* ViewController.swift */,
-				4FD682D427E2EB3500101C40 /* measureApp.swift */,
-				4FB2CAF527E2324200F58CE4 /* Main.storyboard */,
-				4FD682D227E2DADD00101C40 /* green-tea.jpg */,
-				4FD682D027E2DA3300101C40 /* cafe-latte.jpg */,
-				4FB2CAF827E2324300F58CE4 /* Assets.xcassets */,
-				4FB2CAFA27E2324300F58CE4 /* LaunchScreen.storyboard */,
-				4FB2CAFD27E2324300F58CE4 /* Info.plist */,
+				4F60376727E4B5C00081B08F /* AppDelegate.swift */,
+				4F60376927E4B5C00081B08F /* SceneDelegate.swift */,
+				4F60376B27E4B5C00081B08F /* ViewController.swift */,
+				4F60376D27E4B5C00081B08F /* Main.storyboard */,
+				4F60377B27E4B5FF0081B08F /* measurement.swift */,
+				4F60377027E4B5C10081B08F /* Assets.xcassets */,
+				4F60377227E4B5C10081B08F /* LaunchScreen.storyboard */,
+				4F60377527E4B5C10081B08F /* Info.plist */,
 			);
-			path = HelloCafe2;
+			path = measurementApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FB2CAEB27E2324200F58CE4 /* HelloCafe2 */ = {
+		4F60376327E4B5C00081B08F /* measurementApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FB2CB0027E2324300F58CE4 /* Build configuration list for PBXNativeTarget "HelloCafe2" */;
+			buildConfigurationList = 4F60377827E4B5C10081B08F /* Build configuration list for PBXNativeTarget "measurementApp" */;
 			buildPhases = (
-				4FB2CAE827E2324200F58CE4 /* Sources */,
-				4FB2CAE927E2324200F58CE4 /* Frameworks */,
-				4FB2CAEA27E2324200F58CE4 /* Resources */,
+				4F60376027E4B5C00081B08F /* Sources */,
+				4F60376127E4B5C00081B08F /* Frameworks */,
+				4F60376227E4B5C00081B08F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloCafe2;
-			productName = HelloCafe2;
-			productReference = 4FB2CAEC27E2324200F58CE4 /* HelloCafe2.app */;
+			name = measurementApp;
+			productName = measurementApp;
+			productReference = 4F60376427E4B5C00081B08F /* measurementApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4FB2CAE427E2324200F58CE4 /* Project object */ = {
+		4F60375C27E4B5C00081B08F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4FB2CAEB27E2324200F58CE4 = {
+					4F60376327E4B5C00081B08F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4FB2CAE727E2324200F58CE4 /* Build configuration list for PBXProject "HelloCafe2" */;
+			buildConfigurationList = 4F60375F27E4B5C00081B08F /* Build configuration list for PBXProject "measurementApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4FB2CAE327E2324200F58CE4;
-			productRefGroup = 4FB2CAED27E2324200F58CE4 /* Products */;
+			mainGroup = 4F60375B27E4B5C00081B08F;
+			productRefGroup = 4F60376527E4B5C00081B08F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FB2CAEB27E2324200F58CE4 /* HelloCafe2 */,
+				4F60376327E4B5C00081B08F /* measurementApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FB2CAEA27E2324200F58CE4 /* Resources */ = {
+		4F60376227E4B5C00081B08F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB2CAFC27E2324300F58CE4 /* LaunchScreen.storyboard in Resources */,
-				4FB2CAF927E2324300F58CE4 /* Assets.xcassets in Resources */,
-				4FB2CAF727E2324200F58CE4 /* Main.storyboard in Resources */,
-				4FD682D127E2DA3300101C40 /* cafe-latte.jpg in Resources */,
-				4FD682D327E2DADD00101C40 /* green-tea.jpg in Resources */,
+				4F60377427E4B5C10081B08F /* LaunchScreen.storyboard in Resources */,
+				4F60377127E4B5C10081B08F /* Assets.xcassets in Resources */,
+				4F60376F27E4B5C00081B08F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FB2CAE827E2324200F58CE4 /* Sources */ = {
+		4F60376027E4B5C00081B08F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB2CAF427E2324200F58CE4 /* ViewController.swift in Sources */,
-				4FB2CAF027E2324200F58CE4 /* AppDelegate.swift in Sources */,
-				4FD682D527E2EB3500101C40 /* measureApp.swift in Sources */,
-				4FB2CAF227E2324200F58CE4 /* SceneDelegate.swift in Sources */,
+				4F60376C27E4B5C00081B08F /* ViewController.swift in Sources */,
+				4F60376827E4B5C00081B08F /* AppDelegate.swift in Sources */,
+				4F60377C27E4B5FF0081B08F /* measurement.swift in Sources */,
+				4F60376A27E4B5C00081B08F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4FB2CAF527E2324200F58CE4 /* Main.storyboard */ = {
+		4F60376D27E4B5C00081B08F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FB2CAF627E2324200F58CE4 /* Base */,
+				4F60376E27E4B5C00081B08F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4FB2CAFA27E2324300F58CE4 /* LaunchScreen.storyboard */ = {
+		4F60377227E4B5C10081B08F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FB2CAFB27E2324300F58CE4 /* Base */,
+				4F60377327E4B5C10081B08F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4FB2CAFE27E2324300F58CE4 /* Debug */ = {
+		4F60377627E4B5C10081B08F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		4FB2CAFF27E2324300F58CE4 /* Release */ = {
+		4F60377727E4B5C10081B08F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +286,7 @@
 			};
 			name = Release;
 		};
-		4FB2CB0127E2324300F58CE4 /* Debug */ = {
+		4F60377927E4B5C10081B08F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -302,7 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloCafe2/Info.plist;
+				INFOPLIST_FILE = measurementApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mini.HelloCafe2;
+				PRODUCT_BUNDLE_IDENTIFIER = mini.measurementApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		4FB2CB0227E2324300F58CE4 /* Release */ = {
+		4F60377A27E4B5C10081B08F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -329,7 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloCafe2/Info.plist;
+				INFOPLIST_FILE = measurementApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -340,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mini.HelloCafe2;
+				PRODUCT_BUNDLE_IDENTIFIER = mini.measurementApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FB2CAE727E2324200F58CE4 /* Build configuration list for PBXProject "HelloCafe2" */ = {
+		4F60375F27E4B5C00081B08F /* Build configuration list for PBXProject "measurementApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB2CAFE27E2324300F58CE4 /* Debug */,
-				4FB2CAFF27E2324300F58CE4 /* Release */,
+				4F60377627E4B5C10081B08F /* Debug */,
+				4F60377727E4B5C10081B08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FB2CB0027E2324300F58CE4 /* Build configuration list for PBXNativeTarget "HelloCafe2" */ = {
+		4F60377827E4B5C10081B08F /* Build configuration list for PBXNativeTarget "measurementApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB2CB0127E2324300F58CE4 /* Debug */,
-				4FB2CB0227E2324300F58CE4 /* Release */,
+				4F60377927E4B5C10081B08F /* Debug */,
+				4F60377A27E4B5C10081B08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4FB2CAE427E2324200F58CE4 /* Project object */;
+	rootObject = 4F60375C27E4B5C00081B08F /* Project object */;
 }
