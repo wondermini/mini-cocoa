@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // test2
     }
     //버튼을 눌렀을때 호출할 함수로 넣어 동작 결과를 만들어준다.
     @IBAction func buttonTouched(_ sender: Any) {
