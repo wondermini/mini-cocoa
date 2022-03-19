@@ -8,17 +8,9 @@
 import Foundation
 
 enum Unit: String {
-    case inch = "inch"
-    case cm = "cm"
-    case m = "m"
-
-//    var description: String {
-//        switch self {
-//        case .inch: return "inch"
-//        case .cm: return "cm"
-//        case .m: return "m"
-//        }
-//    }
+    case inch
+    case cm
+    case m
 }
 
 struct Measurement {
@@ -35,7 +27,6 @@ struct MeasureApp {
         } else if fromUnit == Unit.cm, toUnit == Unit.inch {
             tmpValue += Double(inputValue / 2.54)
             return String(tmpValue) + toUnit.rawValue
-//            } else if fromUnit == Unit.m, toUnit == Unit.inch {
         } else {
             tmpValue += Double(inputValue * 39.37)
             return String(tmpValue) + toUnit.rawValue
