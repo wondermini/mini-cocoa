@@ -27,44 +27,53 @@ struct BaseballGame {
         } else {
             print("입력값이 없습니다.")
         }
-        //에러코드를 반환
+        // 에러코드를 반환
         return -1
     }
     
     mutating func playGame() {
         newGame()
-        var input = inputThreeNumbs()
-        
-        
+        let input = inputThreeNumbs()
+        countStrikeAndBall(input: input)
     }
 
-    func countStrikeAndBall(num: Int) {
+    func countStrikeAndBall(input: Int) {
         var ballCounter = 0
         var strikeCounter = 0
+        var outCounter = 0
         
         let answerFirstDigit = answerNums/100
-        let secondAnswerDigit = (answerNums%100)/10
-        let thirdAnswerValue = answerNums%10
+        let answerSecondDigit = (answerNums%100)/10
+        let answerThirdDigit = answerNums%10
         
-        let firstInputValue =
+        let inputFirstDigit = input/100
+        let inputSecondDigit = (input%100)/10
+        let inputThirdDigit = input%10
         
-        
-        if answerNums%10 == num%10 {
+        if inputFirstDigit == answerFirstDigit {
             strikeCounter += 1
-        } else if answerNums/100 == num/100 {
-            strikeCounter += 1
-        } else if (answerNums-((answerNums/100)*100))/10 == (num-((num/100)*100))/10 {
-            strikeCounter += 1
+        } else if inputFirstDigit == answerSecondDigit || inputFirstDigit == answerThirdDigit {
+            ballCounter += 1
+        } else {
+            outCounter += 1
         }
-        let answerArr = String(answerNums).compactMap{$0.wholeNumberValue}
-        let tmpArr = String(tmpValue).compactMap{$0.wholeNumberValue}
-        for i in answerArr {
-            for j in tmpArr {
-                if i == j {
-                    ballCounter += 1
-                }
-            }
-            
+        
+        if inputSecondDigit == answerSecondDigit {
+            strikeCounter += 1
+        } else if inputSecondDigit == answerFirstDigit || inputSecondDigit == answerThirdDigit {
+            ballCounter += 1
+        } else {
+            outCounter += 1
         }
+        
+        if inputThirdDigit == answerThirdDigit {
+            strikeCounter += 1
+        } else if inputThirdDigit == answerSecondDigit || inputThirdDigit == answerFirstDigit {
+            ballCounter += 1
+        } else {
+            outCounter += 1
+        }
+        
+        print("\(strikeCounter) 스트라이크 \(ballCounter) 볼 \(outCounter) 아웃")
     }
 }
