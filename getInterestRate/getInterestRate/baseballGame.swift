@@ -10,39 +10,61 @@ import Foundation
 struct BaseballGame {
     var answerNums = 0
 
-    func countStrike() {
+    mutating func newGame() {
+        // 컴퓨터가 랜덤하게 세자리 숫자를 생성한다.
+        answerNums = Int.random(in: 0 ... 999)
+    }
+
+    func inputThreeNumbs() -> Int {
         print("세 자리 숫자를 입력해 주세요.")
         if let tmpValue = readLine() {
             if let num = Int(tmpValue) {
                 print("입력값은 \(num) 입니다.")
-
-                let answerArr = Array(arrayLiteral: answerNums)
-                let tmpArr = tmpValue.compactMap { $0.wholeNumberValue }
-                let sliceTmpArr = tmpArr[1...2]
-                let sliceAnswerArr = answerArr[1...2]
-                
-                var sliceAnswerString = ""
-                _ = sliceAnswerArr.map { sliceAnswerString = sliceAnswerString + "\($0)" }
-                let sliceAnswerInt = Int(sliceAnswerString)
-                
-                var sliceTmpString = ""
-                _ = sliceTmpArr.map { sliceTmpString = sliceTmpString + "\($0)" }
-                let sliceTmpInt = Int(sliceTmpString)
-                
-                var strikeCounter = 0
-                if answerNums%10 == num%10 {
-                    strikeCounter += 1
-                } else if answerNums/100 == num/100 {
-                    strikeCounter += 1
-                } else if sliceAnswerInt!/10 == sliceTmpInt!/10 {
-                    strikeCounter += 1
-                }
-
+                return num
             } else {
                 print("입력값 숫자가 아닙니다. 입력갑 = \(tmpValue)")
             }
         } else {
             print("입력값이 없습니다.")
+        }
+        //에러코드를 반환
+        return -1
+    }
+    
+    mutating func playGame() {
+        newGame()
+        var input = inputThreeNumbs()
+        
+        
+    }
+
+    func countStrikeAndBall(num: Int) {
+        var ballCounter = 0
+        var strikeCounter = 0
+        
+        let answerFirstDigit = answerNums/100
+        let secondAnswerDigit = (answerNums%100)/10
+        let thirdAnswerValue = answerNums%10
+        
+        let firstInputValue =
+        
+        
+        if answerNums%10 == num%10 {
+            strikeCounter += 1
+        } else if answerNums/100 == num/100 {
+            strikeCounter += 1
+        } else if (answerNums-((answerNums/100)*100))/10 == (num-((num/100)*100))/10 {
+            strikeCounter += 1
+        }
+        let answerArr = String(answerNums).compactMap{$0.wholeNumberValue}
+        let tmpArr = String(tmpValue).compactMap{$0.wholeNumberValue}
+        for i in answerArr {
+            for j in tmpArr {
+                if i == j {
+                    ballCounter += 1
+                }
+            }
+            
         }
     }
 }
