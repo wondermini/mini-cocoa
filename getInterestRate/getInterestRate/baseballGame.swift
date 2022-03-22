@@ -27,7 +27,7 @@ struct BaseballGame {
         } else {
             print("입력값이 없습니다.")
         }
-        // 에러코드를 반환
+    // 에러코드를 반환
         return -1
     }
     

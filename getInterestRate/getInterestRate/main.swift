@@ -11,16 +11,21 @@ print("Hello, World!")
 
 let interestRate = InterestRate()
 
-func testInterestOneDay(unitDay: Int) -> Double {
-    for i in stride(from: 1, to: unitDay, by: 1) {
-        let depositAmountPerOne = Double(i) + Double(i) * interestRate.getInterestRate(byDay: unitDay)
-        return depositAmountPerOne
-    }
-}
+//func testInterestOneDay(unitDay: Int) -> Double {
+//    for i in stride(from: 1, to: unitDay, by: 1) {
+//        let depositAmountPerOne = Double(i) + Double(i) * interestRate.getInterestRate(byDay: unitDay)
+//        return depositAmountPerOne
+//    }
+//}
+//
+//func testInterestTenDays(unitDay: Int) -> Double {
+//    for i in stride(from: 1, to: unitDay, by: 10) {
+//        let depositAmountPerTen = Double(i) + Double(i) * interestRate.getInterestRate(byDay: unitDay)
+//        return depositAmountPerTen
+//    }
+//}
 
-func testInterestTenDays(unitDay: Int) -> Double {
-    for i in stride(from: 1, to: unitDay, by: 10) {
-        let depositAmountPerTen = Double(i) + Double(i) * interestRate.getInterestRate(byDay: unitDay)
-        return depositAmountPerTen
-    }
-}
+var baseballGame = BaseballGame()
+
+baseballGame.playGame()
+

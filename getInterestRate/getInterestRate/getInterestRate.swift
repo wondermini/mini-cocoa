@@ -26,3 +26,7 @@ struct InterestRate {
         return depositAmount
     }
 }
+
+
+var myBaseball = BaseballGame()
+
