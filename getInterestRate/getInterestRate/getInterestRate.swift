@@ -28,5 +28,5 @@ struct InterestRate {
 }
 
 
-var myBaseball = BaseballGame()
+
 

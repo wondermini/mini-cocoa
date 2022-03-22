@@ -16,28 +16,29 @@ struct BaseballGame {
     }
 
     func inputThreeNumbs() -> Int {
-        print("세 자리 숫자를 입력해 주세요.")
+        print("3자리 숫자를 입력해 주세요.")
         if let tmpValue = readLine() {
             if let num = Int(tmpValue) {
                 print("입력값은 \(num) 입니다.")
                 return num
             } else {
-                print("입력값 숫자가 아닙니다. 입력갑 = \(tmpValue)")
+                print("입력값 숫자가 아닙니다. 입력값 = \(tmpValue)")
             }
         } else {
             print("입력값이 없습니다.")
         }
-    // 에러코드를 반환
+        // 에러코드를 반환
         return -1
     }
     
     mutating func playGame() {
+        print("숫자야구를 시작합니다.")
         newGame()
-        let input = inputThreeNumbs()
-        countStrikeAndBall(input: input)
+
+        repeat {} while countStrikeAndBall(input: inputThreeNumbs()) != 3
     }
 
-    func countStrikeAndBall(input: Int) {
+    mutating func countStrikeAndBall(input: Int) -> Int {
         var ballCounter = 0
         var strikeCounter = 0
         var outCounter = 0
@@ -75,5 +76,6 @@ struct BaseballGame {
         }
         
         print("\(strikeCounter) 스트라이크 \(ballCounter) 볼 \(outCounter) 아웃")
+        return strikeCounter
     }
 }

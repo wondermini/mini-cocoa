@@ -7,7 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
 
 let interestRate = InterestRate()
 
@@ -29,3 +28,5 @@ var baseballGame = BaseballGame()
 
 baseballGame.playGame()
 
+
+    
