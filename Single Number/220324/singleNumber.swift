@@ -20,10 +20,10 @@ func singleNumber(_ nums: [Int]) -> Int {
     var elementCount = [Int: Int]()
 
     for i in nums {
-        if elementCount[i] != nil {
-            elementCount[i]! += 1
-        } else {
+        if (elementCount[i] == nil) {
             elementCount[i] = 1
+        } else {
+            elementCount[i]! += 1
         }
     }
 
