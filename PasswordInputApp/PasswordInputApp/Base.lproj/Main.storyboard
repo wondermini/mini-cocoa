@@ -55,12 +55,19 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="linkColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="confirm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcD-9f-4Xa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="inputpassword" destination="m32-1t-8Lw" id="1ns-sS-KuM"/>
+                        <outlet property="levelOfPassword" destination="0eP-SM-SO5" id="0N2-2G-OYx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

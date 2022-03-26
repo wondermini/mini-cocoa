@@ -13,6 +13,7 @@
 		4F7B632B27EF533A00CC5A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B632927EF533A00CC5A45 /* Main.storyboard */; };
 		4F7B632D27EF533C00CC5A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B632C27EF533C00CC5A45 /* Assets.xcassets */; };
 		4F7B633027EF533C00CC5A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B632E27EF533C00CC5A45 /* LaunchScreen.storyboard */; };
+		4F7B633827EF586F00CC5A45 /* passwordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B633727EF586F00CC5A45 /* passwordInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4F7B632C27EF533C00CC5A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7B632F27EF533C00CC5A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F7B633127EF533C00CC5A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7B633727EF586F00CC5A45 /* passwordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4F7B632527EF533A00CC5A45 /* SceneDelegate.swift */,
 				4F7B632727EF533A00CC5A45 /* ViewController.swift */,
 				4F7B632927EF533A00CC5A45 /* Main.storyboard */,
+				4F7B633727EF586F00CC5A45 /* passwordInput.swift */,
 				4F7B632C27EF533C00CC5A45 /* Assets.xcassets */,
 				4F7B632E27EF533C00CC5A45 /* LaunchScreen.storyboard */,
 				4F7B633127EF533C00CC5A45 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7B632827EF533A00CC5A45 /* ViewController.swift in Sources */,
+				4F7B633827EF586F00CC5A45 /* passwordInput.swift in Sources */,
 				4F7B632427EF533A00CC5A45 /* AppDelegate.swift in Sources */,
 				4F7B632627EF533A00CC5A45 /* SceneDelegate.swift in Sources */,
 			);
