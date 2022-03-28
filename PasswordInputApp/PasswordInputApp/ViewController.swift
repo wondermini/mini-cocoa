@@ -19,5 +19,6 @@ class ViewController: UIViewController {
         //inputpassword.text는 입력창에 넣은 값을 말한다. 없을때는 zerolengthString이다.
         let passwordLevel = passwordValidator(password: inputpassword.text ?? "")
         self.levelOfPassword.text = String(format: "%1d Level", passwordLevel)
+        self.levelOfPassword.text = String(format: "")
     }
 }
