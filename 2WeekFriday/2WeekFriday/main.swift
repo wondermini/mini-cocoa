@@ -26,3 +26,17 @@ if divisor([3,2,6],10) == [-1]{
 }else{
     print("divisor test is fail")
 }
+
+
+
+if chooseTwoNums([2,1,3,4,1]) == [2,3,4,5,6,7]{
+    print("chooseTwoNums test is success")
+}else{
+    print("chooseTwoNums test is fail")
+}
+
+if chooseTwoNums([5,0,2,7]) == [2,5,7,9,12]{
+    print("chooseTwoNums test is success")
+}else{
+    print("chooseTwoNums test is fail")
+}
