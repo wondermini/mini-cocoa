@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3C920A27F355E50095EEF9 /* chooseTwoNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */; };
 		4FCBF0C127F201BA00455CDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBF0C027F201BA00455CDC /* main.swift */; };
 		4FCBF0C827F2022700455CDC /* intDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBF0C727F2022700455CDC /* intDivisor.swift */; };
 		4FCBF0CA27F2178300455CDC /* crawCrane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBF0C927F2178300455CDC /* crawCrane.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseTwoNums.swift; sourceTree = "<group>"; };
 		4FCBF0BD27F201BA00455CDC /* 2WeekFriday */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2WeekFriday; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCBF0C027F201BA00455CDC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FCBF0C727F2022700455CDC /* intDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intDivisor.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				4FCBF0C727F2022700455CDC /* intDivisor.swift */,
 				4FCBF0C927F2178300455CDC /* crawCrane.swift */,
+				4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */,
 				4FCBF0BF27F201BA00455CDC /* 2WeekFriday */,
 				4FCBF0BE27F201BA00455CDC /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3C920A27F355E50095EEF9 /* chooseTwoNums.swift in Sources */,
 				4FCBF0CA27F2178300455CDC /* crawCrane.swift in Sources */,
 				4FCBF0C827F2022700455CDC /* intDivisor.swift in Sources */,
 				4FCBF0C127F201BA00455CDC /* main.swift in Sources */,

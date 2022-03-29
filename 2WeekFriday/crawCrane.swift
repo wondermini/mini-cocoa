@@ -8,11 +8,11 @@
 import Foundation
 
 func solution(_ board: [[Int]], _ moves: [Int]) -> Int {
-    var counter = 0
+    var counter = 0 //터트린 인형 개수
     var stackdolls = [Int]()
     var tempBoard = [[Int]]()
 
-    // 배열을 다루기 쉽도록 행과 열을 바꿔준다
+    // 배열을 다루기 쉽도록 행과 열을 바꿔준다.
     for i in 0...board.count-1 {
         tempBoard.append([Int]())
         for j in 0...board.count-1 {
