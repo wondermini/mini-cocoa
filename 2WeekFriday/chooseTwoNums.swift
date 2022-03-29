@@ -8,5 +8,12 @@
 import Foundation
 
 func chooseTwoNums(_ numbers:[Int]) -> [Int] {
-    return []
+    var tmpArr = [Int]()
+    for i in 0..<numbers.count{
+        for j in (i+1)..<numbers.count{
+            tmpArr.append(numbers[i]+numbers[j])
+        }
+    }
+    let unique = Array(Set(tmpArr)).sorted(by: <)
+    return unique
 }
