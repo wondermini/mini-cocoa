@@ -40,3 +40,16 @@ if chooseTwoNums([5,0,2,7]) == [2,5,7,9,12]{
 }else{
     print("chooseTwoNums test is fail")
 }
+
+
+if markRandomly([1,2,3,4,5]) == [1]{
+    print("markRandomly test is success")
+}else{
+    print("markRandomly test is fail")
+}
+
+if markRandomly([1,3,2,4,2]) == [1,2,3]{
+    print("markRandomly test is success")
+}else{
+    print("markRandomly test is fail")
+}
