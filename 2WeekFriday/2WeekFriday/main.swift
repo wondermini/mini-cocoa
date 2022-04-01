@@ -55,7 +55,7 @@ if markRandomly([1,3,2,4,2]) == [1,2,3]{
 }
 
 
-if guessWhatDay(5, 24) == "TUE"{
+if guessWeekDay(5, 24) == "TUE"{
     print("guessWhatDay test is success")
 }else{
     print("guessWhatDay test is success")
