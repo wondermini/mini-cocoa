@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F3C920A27F355E50095EEF9 /* chooseTwoNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */; };
 		4F3C920C27F35C670095EEF9 /* markRandomly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C920B27F35C670095EEF9 /* markRandomly.swift */; };
+		4F64C67D27F88A8200FD6E81 /* divisorSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64C67C27F88A8200FD6E81 /* divisorSum.swift */; };
 		4FC51CFF27F74495003EA7AD /* guessWeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC51CFE27F74495003EA7AD /* guessWeekDay.swift */; };
 		4FCBF0C127F201BA00455CDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBF0C027F201BA00455CDC /* main.swift */; };
 		4FCBF0C827F2022700455CDC /* intDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBF0C727F2022700455CDC /* intDivisor.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseTwoNums.swift; sourceTree = "<group>"; };
 		4F3C920B27F35C670095EEF9 /* markRandomly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = markRandomly.swift; sourceTree = "<group>"; };
+		4F64C67C27F88A8200FD6E81 /* divisorSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divisorSum.swift; sourceTree = "<group>"; };
 		4FC51CFE27F74495003EA7AD /* guessWeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessWeekDay.swift; sourceTree = "<group>"; };
 		4FCBF0BD27F201BA00455CDC /* 2WeekFriday */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2WeekFriday; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCBF0C027F201BA00455CDC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				4F3C920927F355E50095EEF9 /* chooseTwoNums.swift */,
 				4F3C920B27F35C670095EEF9 /* markRandomly.swift */,
 				4FC51CFE27F74495003EA7AD /* guessWeekDay.swift */,
+				4F64C67C27F88A8200FD6E81 /* divisorSum.swift */,
 				4FCBF0BF27F201BA00455CDC /* 2WeekFriday */,
 				4FCBF0BE27F201BA00455CDC /* Products */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				4FC51CFF27F74495003EA7AD /* guessWeekDay.swift in Sources */,
 				4F3C920A27F355E50095EEF9 /* chooseTwoNums.swift in Sources */,
+				4F64C67D27F88A8200FD6E81 /* divisorSum.swift in Sources */,
 				4FCBF0CA27F2178300455CDC /* crawCrane.swift in Sources */,
 				4FCBF0C827F2022700455CDC /* intDivisor.swift in Sources */,
 				4FCBF0C127F201BA00455CDC /* main.swift in Sources */,

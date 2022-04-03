@@ -60,3 +60,16 @@ if guessWeekDay(5, 24) == "TUE"{
 }else{
     print("guessWhatDay test is success")
 }
+
+
+if addDivisor(12) == 28 {
+    print("addDivisor test is success")
+}else{
+    print("addDivisor test is fail")
+}
+
+if addDivisor(5) == 6 {
+    print("addDivisor test is success")
+}else{
+    print("addDivisor test is fail")
+}
