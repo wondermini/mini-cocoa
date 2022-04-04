@@ -20,12 +20,12 @@ class ViewController: UIViewController {
         let lettersLower = CharacterSet.lowercaseLetters
         let lettersUpper = CharacterSet.uppercaseLetters
         let nums = CharacterSet.decimalDigits
-        let symbol = CharacterSet(charactersIn: "~,!,@,#,$,%,^,&,*,(,),-,+,<,>,?,\,:")
+        let symbol = CharacterSet(charactersIn: "~!@#$%^&*()-+<>?\\:")
         if passwordArr.self.allSatisfy({$0.isNumber}) == true && password.count<8{
             return 1
         }else if passwordArr.self.allSatisfy({$0.isLetter}) == true && password.count<8{
              return 2
-        }else if passwordChar.isSubset(of: lettersLower) || passwordChar.isSubset(of: lettersUpper) || passwordChar.isSubset(of: nums) && password.count>=8{
+        }else if passwordChar.isSubset(of: lettersLower) && passwordChar.isSubset(of: lettersUpper) && passwordChar.isSubset(of: nums) && password.count>=8{
             return 4
         }else if passwordChar.
         }else{
