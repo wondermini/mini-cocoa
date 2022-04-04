@@ -66,6 +66,7 @@
                     </view>
                     <connections>
                         <outlet property="inputpassword" destination="m32-1t-8Lw" id="1ns-sS-KuM"/>
+                        <outlet property="levelColor" destination="BdR-M3-EPB" id="QNa-PM-OvU"/>
                         <outlet property="levelOfPassword" destination="0eP-SM-SO5" id="0N2-2G-OYx"/>
                     </connections>
                 </viewController>
