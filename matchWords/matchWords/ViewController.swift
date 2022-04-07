@@ -17,9 +17,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func confirmButton(_ sender: Any) {
+        let allWords = ["동해물과", "백두산이", "마르고", "닮도록", "하느님이", "보우하사", "우리나라", "만세", "무궁화", "삼천리"]
         if secondInputWord.text == "" || secondInputWord.text == nil {
-            wordTextField.placeholder = "입력해주세요"
+            firstInputWord.text?.removeAll()
         }
         wordTextField.textAlignment = NSTextAlignment.center
+        if wordTextField.text == secondInputWord.text {
+            firstInputWord.text = (wordTextField.text ?? "")
+            secondInputWord.text = (allWords.randomElement() ?? "")
+            wordTextField.text?.removeAll()
+        } else {
+            wordTextField.text!.removeAll()
+        }
     }
 }
