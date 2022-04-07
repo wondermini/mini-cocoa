@@ -23,11 +23,13 @@ class ViewController: UIViewController {
         }
         wordTextField.textAlignment = NSTextAlignment.center
         if wordTextField.text == secondInputWord.text {
+            secondInputWord.textColor = UIColor.darkGray
             firstInputWord.text = (wordTextField.text ?? "")
             secondInputWord.text = (allWords.randomElement() ?? "")
             wordTextField.text?.removeAll()
         } else {
             wordTextField.text!.removeAll()
+            secondInputWord.textColor = UIColor.red
         }
     }
 }
