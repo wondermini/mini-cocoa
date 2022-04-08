@@ -1,8 +1,13 @@
-import Cocoa
+import Foundation
 
 
-
-
-print(Array("11111a1").allSatisfy({$0.isNumber}))
-print(Array("111111").allSatisfy({$0.isNumber}))
-print(Array("aaaaaaa").contains( . ) .allSatisfy({$0.isLetter}))
+func enumerateList(_A: [Int]){
+    let a = [1, 4, -1, 3, 2]
+    func viewDidLoard() {
+        super.viewDidLoard()
+        for (index, number) in a.enumerated() {
+            print("\(index+1): \(number)")
+        }
+    }
+   
+}
