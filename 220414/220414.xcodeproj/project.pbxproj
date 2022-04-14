@@ -11,6 +11,7 @@
 		4FEA60212807B67500560AB7 /* solveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60202807B67500560AB7 /* solveMeFirst.swift */; };
 		4FEA60232807B8D000560AB7 /* gradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60222807B8D000560AB7 /* gradingStudents.swift */; };
 		4FEA60252808101300560AB7 /* compareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60242808101300560AB7 /* compareTheTriplets.swift */; };
+		4FEA60272808299B00560AB7 /* veryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60262808299B00560AB7 /* veryBigSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4FEA60202807B67500560AB7 /* solveMeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solveMeFirst.swift; sourceTree = "<group>"; };
 		4FEA60222807B8D000560AB7 /* gradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradingStudents.swift; sourceTree = "<group>"; };
 		4FEA60242808101300560AB7 /* compareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTheTriplets.swift; sourceTree = "<group>"; };
+		4FEA60262808299B00560AB7 /* veryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veryBigSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				4FEA60202807B67500560AB7 /* solveMeFirst.swift */,
 				4FEA60222807B8D000560AB7 /* gradingStudents.swift */,
 				4FEA60242808101300560AB7 /* compareTheTriplets.swift */,
+				4FEA60262808299B00560AB7 /* veryBigSum.swift */,
 				4FEA60182807B65E00560AB7 /* 220414 */,
 				4FEA60172807B65E00560AB7 /* Products */,
 			);
@@ -133,6 +136,7 @@
 				4FEA60232807B8D000560AB7 /* gradingStudents.swift in Sources */,
 				4FEA60252808101300560AB7 /* compareTheTriplets.swift in Sources */,
 				4FEA601A2807B65E00560AB7 /* main.swift in Sources */,
+				4FEA60272808299B00560AB7 /* veryBigSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
