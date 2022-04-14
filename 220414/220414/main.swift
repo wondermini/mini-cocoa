@@ -25,8 +25,8 @@ if compareTriplets(a: [1, 2, 3], b: [3, 2, 1]) == [1, 1] {
     print("compareTriplets test is success")
 }
 
-if aVeryBigSum(ar: [1000000001 1000000002 1000000003 1000000004 1000000005]) == 5000000015{
+if aVeryBigSum(ar: [1000000001, 1000000002, 1000000003, 1000000004, 1000000005]) == 5000000015 {
     print("aVeryBigSum test is success")
-}else {
+} else {
     print("aVeryBigSum test is fail")
 }
