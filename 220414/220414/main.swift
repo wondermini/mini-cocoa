@@ -30,3 +30,9 @@ if aVeryBigSum(ar: [1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
 } else {
     print("aVeryBigSum test is fail")
 }
+
+if kangaroo(x1: 0, v1: 3, x2: 4, v2: 2) == "YES" {
+    print("kangaroo test is success")
+} else {
+    print("kangarootest is fail")
+}
