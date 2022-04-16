@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F55D027280B109D00B2DFDF /* numberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F55D026280B109D00B2DFDF /* numberLineJumps.swift */; };
 		4FEA601A2807B65E00560AB7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60192807B65E00560AB7 /* main.swift */; };
 		4FEA60212807B67500560AB7 /* solveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60202807B67500560AB7 /* solveMeFirst.swift */; };
 		4FEA60232807B8D000560AB7 /* gradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA60222807B8D000560AB7 /* gradingStudents.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F55D026280B109D00B2DFDF /* numberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberLineJumps.swift; sourceTree = "<group>"; };
 		4FEA60162807B65E00560AB7 /* 220414 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 220414; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEA60192807B65E00560AB7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FEA60202807B67500560AB7 /* solveMeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solveMeFirst.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				4FEA60222807B8D000560AB7 /* gradingStudents.swift */,
 				4FEA60242808101300560AB7 /* compareTheTriplets.swift */,
 				4FEA60262808299B00560AB7 /* veryBigSum.swift */,
+				4F55D026280B109D00B2DFDF /* numberLineJumps.swift */,
 				4FEA60182807B65E00560AB7 /* 220414 */,
 				4FEA60172807B65E00560AB7 /* Products */,
 			);
@@ -136,6 +139,7 @@
 				4FEA60232807B8D000560AB7 /* gradingStudents.swift in Sources */,
 				4FEA60252808101300560AB7 /* compareTheTriplets.swift in Sources */,
 				4FEA601A2807B65E00560AB7 /* main.swift in Sources */,
+				4F55D027280B109D00B2DFDF /* numberLineJumps.swift in Sources */,
 				4FEA60272808299B00560AB7 /* veryBigSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
