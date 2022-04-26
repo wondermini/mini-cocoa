@@ -10,3 +10,13 @@ import Foundation
 print("Hello, World!")
 
 loveCalculator()
+
+var aYear = Int(readLine()!)!
+
+isLeap(year: aYear)
+
+//if isLeap(year: aYear) {
+//    print("isLeap test is success")
+//}else{
+//    print("isLeap test is fail")
+//}
