@@ -20,3 +20,10 @@ isLeap(year: aYear)
 //}else{
 //    print("isLeap test is fail")
 //}
+
+
+var aNumber =  Int(readLine()!)!
+ 
+dayOfTheWeek(day: aNumber)
+
+

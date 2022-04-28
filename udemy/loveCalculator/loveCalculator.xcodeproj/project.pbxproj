@@ -10,6 +10,7 @@
 		4FE7E32E2816FD8200C959C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E32D2816FD8200C959C1 /* main.swift */; };
 		4FE7E3352816FDA000C959C1 /* loveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E3342816FDA000C959C1 /* loveCalculator.swift */; };
 		4FE7E3372817C40C00C959C1 /* isLeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E3362817C40C00C959C1 /* isLeap.swift */; };
+		4FE7E33B281A90A200C959C1 /* codingExerciseSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E33A281A90A200C959C1 /* codingExerciseSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4FE7E32D2816FD8200C959C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FE7E3342816FDA000C959C1 /* loveCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loveCalculator.swift; sourceTree = "<group>"; };
 		4FE7E3362817C40C00C959C1 /* isLeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isLeap.swift; sourceTree = "<group>"; };
+		4FE7E33A281A90A200C959C1 /* codingExerciseSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codingExerciseSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				4FE7E3342816FDA000C959C1 /* loveCalculator.swift */,
+				4FE7E33A281A90A200C959C1 /* codingExerciseSwitch.swift */,
 				4FE7E3362817C40C00C959C1 /* isLeap.swift */,
 				4FE7E32C2816FD8200C959C1 /* loveCalculator */,
 				4FE7E32B2816FD8200C959C1 /* Products */,
@@ -129,6 +132,7 @@
 				4FE7E3372817C40C00C959C1 /* isLeap.swift in Sources */,
 				4FE7E32E2816FD8200C959C1 /* main.swift in Sources */,
 				4FE7E3352816FDA000C959C1 /* loveCalculator.swift in Sources */,
+				4FE7E33B281A90A200C959C1 /* codingExerciseSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
