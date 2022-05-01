@@ -10,7 +10,7 @@ import Foundation
 
 
 func isLeap(year: Int) -> Bool {
-    if aYear%4 == 0, aYear%100 != 0, aYear%400 == 0 {
+    if year%4 == 0, year%100 != 0, year%400 == 0 {
         return true
     }else{
         return false
