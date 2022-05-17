@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4FE7E37928337C8600C959C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E37828337C8600C959C1 /* main.swift */; };
 		4FE7E38028337C8E00C959C1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E37F28337C8E00C959C1 /* TwoSum.swift */; };
+		4FE7E3822833E9A100C959C1 /* fizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7E3812833E9A100C959C1 /* fizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4FE7E37528337C8600C959C1 /* twoSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = twoSum; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE7E37828337C8600C959C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4FE7E37F28337C8E00C959C1 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		4FE7E3812833E9A100C959C1 /* fizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				4FE7E37828337C8600C959C1 /* main.swift */,
 				4FE7E37F28337C8E00C959C1 /* TwoSum.swift */,
+				4FE7E3812833E9A100C959C1 /* fizzBuzz.swift */,
 			);
 			path = twoSum;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE7E37928337C8600C959C1 /* main.swift in Sources */,
+				4FE7E3822833E9A100C959C1 /* fizzBuzz.swift in Sources */,
 				4FE7E38028337C8E00C959C1 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

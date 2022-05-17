@@ -23,7 +23,3 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     // error
     return [0]
 }
-
-func twoSum2(nums: [Int], target: Int) -> [Int] {
-    
-}
