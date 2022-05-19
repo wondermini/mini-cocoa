@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>twoSum.xcscheme_^#shared#^_</key>
+		<key>UnitTestPrj.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>twoSumTest.xcscheme_^#shared#^_</key>
+		<key>UnitTestPrjTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4FE7E37428337C8600C959C1</key>
+		<key>4FE7E3AE283549DA00C959C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4FE7E3CB28354D5E00C959C1</key>
+		<key>4FE7E3BC283549F800C959C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

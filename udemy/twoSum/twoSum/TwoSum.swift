@@ -8,10 +8,10 @@
 import Foundation
 
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-    //key,value 모두 정수
+    // key,value 모두 정수
     // 두번째 돌때 dict = [2,0]
     var dict = [Int: Int]()
-   //두번째 돌때 (1,7)
+    // 두번째 돌때 (1,7)
     for (i, num) in nums.enumerated() {
         // index = dict[9-7] 즉 dict[2]가 있느냐? 2의 인덱스 값이 0
         if let index = dict[target - num] {
